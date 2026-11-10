@@ -11,27 +11,41 @@ An index is a map, not a copy: page paths, titles, section headings, API symbols
 with their anchors, and a few keywords. No documentation text is stored or
 redistributed.
 
-## When it helps (measured)
+## Tokens saved (measured)
 
-We ran the same questions in headless Claude Code with and without the plugin
-(Sonnet 5.5, November 2026), on Polars 2.0, SQLAlchemy 2.1 and Flet 1.0/1.1, all
-released after the model's training data. The questions were written after
-tuning, on topics never used to fix the code; answer keys were checked against
-the official docs; each question ran twice per arm with the code frozen.
+Per answer, with and without docpin, in headless Claude Code (Sonnet 5.5,
+November 2026). Questions about Polars 2.0, SQLAlchemy 2.1 and Flet 1.0/1.1, all
+released after the model's training data. Counts include every model involved:
+the main conversation, the lookup agent, and web-page summarization.
 
-| held-out round | with docpin | without (web search) |
-|---|---|---|
-| **round 2** (12 questions, current code) | **96%** correct, $0.072, 29 s | 75%, $0.080, 44 s |
-| round 1 (13 questions, before the change-question fixes) | 88%, $0.071, 29 s | 65%, $0.092, 56 s |
+| per answer (round 2, 12 questions × 2 runs) | with docpin | without (web search) | change |
+|---|---|---|---|
+| **new input tokens** | **25,236** | 88,808 | **−72%** |
+| **output tokens** | **3,708** | 7,471 | **−50%** |
+| all input tokens, incl. cache reads | 150,543 | 185,741 | −19% |
+| cost | $0.072 | $0.080 | −10% |
+| time | 29 s | 44 s | −34% |
 
-- **New releases and new libraries:** more accurate, 10–23% cheaper and
-  1.5–2× faster. Web search often never found the upgrade guide and answered
-  "the docs don't say" from API pages that don't mention the change.
-- **Popular libraries the model knows well:** cost about equal. The plugin
-  doesn't get in the way.
-- **Stable APIs the model has memorized:** the agent is not called.
+*New input tokens* are what the model reads for the first time, such as page
+content, billed at full price. *Cache reads* are the same instructions re-read on
+every turn, billed at about a tenth of that, which is why cost falls less than
+new tokens. The saving comes from reading only the needed section instead of
+whole pages.
 
-Caveats: small samples, one model, one machine (Windows).
+Round 1 (13 other questions, before the last ranking fixes): new input tokens
+−82%, output tokens −62%, cost −22%, time −48%.
+
+**Accuracy did not suffer.** Answers were checked against keys taken from the
+official docs: 23 of 24 correct with docpin, 18 of 24 without (round 1: 23/26 vs
+17/26). Web search often never found the upgrade guide and answered "the docs
+don't say".
+
+Where it does not help: for popular libraries the model already knows, cost is
+about equal; for stable APIs it has memorized, the agent is not called.
+
+Caveats: small samples (two runs per question), one model, one machine (Windows).
+Questions were written after tuning, on topics never used to fix the code, and
+the code was frozen during each run.
 
 ## How it works
 
