@@ -6,8 +6,8 @@ Usage:
   python lookup.py <name|id> --browse [--cat C]
   python lookup.py <name> --where            # installed location + version (no import)
 
-Index roots, in priority order: --index-path, $CLAUDE_PLUGIN_OPTION_INDEX_PATH,
-$DOCPIN_INDEX_PATH, <data-dir>/indexes, the plugin's bundled indexes/.
+Index roots, in priority order: --index-path, $DOCPIN_INDEX_PATH (private
+indexes), <data-dir>/indexes, the plugin's bundled indexes/.
 """
 from __future__ import annotations
 
@@ -34,8 +34,7 @@ LOCKFILES = ("uv.lock", "poetry.lock", "package-lock.json", "pnpm-lock.yaml")
 
 def index_roots(args) -> list[Path]:
     roots = []
-    for p in (args.index_path, os.environ.get("CLAUDE_PLUGIN_OPTION_INDEX_PATH"),
-              os.environ.get("DOCPIN_INDEX_PATH")):
+    for p in (args.index_path, os.environ.get("DOCPIN_INDEX_PATH")):
         if p:
             roots.append(Path(p))
     if args.data_dir:

@@ -7,13 +7,5 @@
     "name": "dev-c2m",
     "url": "https://github.com/dev-c2m"
   },
-  "repository": "https://github.com/dev-c2m/docpin",
-  "userConfig": {
-    "index_path": {
-      "type": "string",
-      "title": "Private index folder",
-      "description": "Optional folder with private doc indexes (takes precedence over bundled ones).",
-      "required": false
-    }
-  }
+  "repository": "https://github.com/dev-c2m/docpin"
 }

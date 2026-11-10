@@ -137,8 +137,9 @@ Marketplaces › docpin에서 켜거나, `/plugin marketplace update docpin`으�
 LLM 없이 기계적으로 만들어서 비용이 들지 않습니다. 요청 간격을 두기 때문에 약 1,500페이지에
 15분 정도 걸립니다. 버전별 문서는 버전과 URL 경로를 함께 지정합니다(예: `--ver 2 --ver-path latest`).
 
-**비공개 문서:** 내 인덱스를 별도 폴더에 두고 플러그인 옵션 `index_path`로 지정하세요.
-포함된 인덱스보다 우선 적용됩니다. 사내망 문서는 해당 인덱스의 `INDEX.md`에
+**비공개 문서:** 내 인덱스를 별도 폴더에 두고 환경 변수 `DOCPIN_INDEX_PATH`로 그 폴더를
+지정하세요. 예를 들어 Claude Code 설정에 `"env": { "DOCPIN_INDEX_PATH": "/path/to/my-indexes" }`를
+넣으면 됩니다. 포함된 인덱스보다 우선 적용됩니다. 사내망 문서는 해당 인덱스의 `INDEX.md`에
 `allow_private_network: true`를 설정합니다.
 
 ## 상태 표시

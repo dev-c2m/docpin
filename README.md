@@ -140,9 +140,11 @@ is mechanical (no LLM) and free; ~1,500 pages take about 15 minutes because
 requests are spaced out. For versioned docs, give the version and its URL part
 (e.g. `--ver 2 --ver-path latest`).
 
-**Private docs:** put your indexes in a folder of your own and set the plugin
-option `index_path`; they take precedence over bundled ones. For intranet docs
-set `allow_private_network: true` in that index's `INDEX.md`.
+**Private docs:** put your indexes in a folder of your own and point the
+`DOCPIN_INDEX_PATH` environment variable at it, for example in your Claude Code
+settings: `"env": { "DOCPIN_INDEX_PATH": "/path/to/my-indexes" }`. These indexes
+take precedence over bundled ones. For intranet docs set
+`allow_private_network: true` in that index's `INDEX.md`.
 
 ## Status lines
 
