@@ -1,0 +1,729 @@
+#schema=1	ver	symbol	kind	path	anchor	heading_path	params
+2	pydantic.BaseModel	heading	api/pydantic/base_model/	pydantic.BaseModel	BaseModel>BaseModel#2	
+2	pydantic.BaseModel.__init__	heading	api/pydantic/base_model/	pydantic.BaseModel.__init__	BaseModel>Methods>__init__	
+2	pydantic.BaseModel.__pydantic_core_schema__	heading	api/pydantic/base_model/	pydantic.BaseModel.__pydantic_core_schema__	BaseModel>Attributes>__pydantic_core_schema__	
+2	pydantic.BaseModel.model_computed_fields	heading	api/pydantic/base_model/	pydantic.BaseModel.model_computed_fields	BaseModel>Methods>model_computed_fields	
+2	pydantic.BaseModel.model_config	heading	api/pydantic/base_model/	pydantic.BaseModel.model_config	BaseModel>Attributes>model_config	
+2	pydantic.BaseModel.model_construct	heading	api/pydantic/base_model/	pydantic.BaseModel.model_construct	BaseModel>Methods>model_construct	model_fields_set,values
+2	pydantic.BaseModel.model_copy	heading	api/pydantic/base_model/	pydantic.BaseModel.model_copy	BaseModel>Methods>model_copy	update,extra,deep
+2	pydantic.BaseModel.model_dump	heading	api/pydantic/base_model/	pydantic.BaseModel.model_dump	BaseModel>Methods>model_dump	mode,to_python,include,exclude,context,by_alias,exclude_unset,exclude_defaults,exclude_none,exclude_computed_fields,round_trip,warnings
+2	pydantic.BaseModel.model_dump_json	heading	api/pydantic/base_model/	pydantic.BaseModel.model_dump_json	BaseModel>Methods>model_dump_json	to_json,indent,ensure_ascii,include,exclude,context,by_alias,exclude_unset,exclude_defaults,exclude_none,exclude_computed_fields,round_trip
+2	pydantic.BaseModel.model_extra	heading	api/pydantic/base_model/	pydantic.BaseModel.model_extra	BaseModel>Attributes>model_extra	
+2	pydantic.BaseModel.model_fields	heading	api/pydantic/base_model/	pydantic.BaseModel.model_fields	BaseModel>Methods>model_fields	
+2	pydantic.BaseModel.model_fields_set	heading	api/pydantic/base_model/	pydantic.BaseModel.model_fields_set	BaseModel>Attributes>model_fields_set	
+2	pydantic.BaseModel.model_json_schema	heading	api/pydantic/base_model/	pydantic.BaseModel.model_json_schema	BaseModel>Methods>model_json_schema	by_alias,validate_by_alias,ref_template,union_format,anyOf,integer,any_of,schema_generator,mode
+2	pydantic.BaseModel.model_parametrized_name	heading	api/pydantic/base_model/	pydantic.BaseModel.model_parametrized_name	BaseModel>Methods>model_parametrized_name	params
+2	pydantic.BaseModel.model_post_init	heading	api/pydantic/base_model/	pydantic.BaseModel.model_post_init	BaseModel>Methods>model_post_init	model_construct
+2	pydantic.BaseModel.model_rebuild	heading	api/pydantic/base_model/	pydantic.BaseModel.model_rebuild	BaseModel>Methods>model_rebuild	force,raise_errors
+2	pydantic.BaseModel.model_validate	heading	api/pydantic/base_model/	pydantic.BaseModel.model_validate	BaseModel>Methods>model_validate	obj,strict,extra,from_attributes,context,by_alias,by_name
+2	pydantic.BaseModel.model_validate_json	heading	api/pydantic/base_model/	pydantic.BaseModel.model_validate_json	BaseModel>Methods>model_validate_json	json_data,bytearray,strict,extra,context,by_alias,by_name
+2	pydantic.BaseModel.model_validate_strings	heading	api/pydantic/base_model/	pydantic.BaseModel.model_validate_strings	BaseModel>Methods>model_validate_strings	obj,strict,extra,context,by_alias,by_name
+2	pydantic.__version__	heading	api/pydantic/version/	pydantic.__version__	Version Information>__version__	
+2	pydantic.alias_generators.to_camel	heading	api/pydantic/config/	pydantic.alias_generators.to_camel	Configuration>to_camel	snake
+2	pydantic.alias_generators.to_pascal	heading	api/pydantic/config/	pydantic.alias_generators.to_pascal	Configuration>to_pascal	snake
+2	pydantic.alias_generators.to_snake	heading	api/pydantic/config/	pydantic.alias_generators.to_snake	Configuration>to_snake	camel
+2	pydantic.aliases.AliasChoices	heading	api/pydantic/aliases/	pydantic.aliases.AliasChoices	Aliases>AliasChoices	
+2	pydantic.aliases.AliasChoices.convert_to_aliases	heading	api/pydantic/aliases/	pydantic.aliases.AliasChoices.convert_to_aliases	AliasChoices>Methods>convert_to_aliases#2	
+2	pydantic.aliases.AliasGenerator	heading	api/pydantic/aliases/	pydantic.aliases.AliasGenerator	Aliases>AliasGenerator	
+2	pydantic.aliases.AliasGenerator.generate_aliases	heading	api/pydantic/aliases/	pydantic.aliases.AliasGenerator.generate_aliases	AliasGenerator>Methods>generate_aliases	alias,validation_alias,serialization_alias
+2	pydantic.aliases.AliasPath	heading	api/pydantic/aliases/	pydantic.aliases.AliasPath	Aliases>AliasPath	
+2	pydantic.aliases.AliasPath.convert_to_aliases	heading	api/pydantic/aliases/	pydantic.aliases.AliasPath.convert_to_aliases	AliasPath>Methods>convert_to_aliases	
+2	pydantic.aliases.AliasPath.search_dict_for_path	heading	api/pydantic/aliases/	pydantic.aliases.AliasPath.search_dict_for_path	AliasPath>Methods>search_dict_for_path	
+2	pydantic.annotated_handlers.GetCoreSchemaHandler	heading	api/pydantic/annotated_handlers/	pydantic.annotated_handlers.GetCoreSchemaHandler	Annotated Handlers>GetCoreSchemaHandler	
+2	pydantic.annotated_handlers.GetCoreSchemaHandler.field_name	heading	api/pydantic/annotated_handlers/	pydantic.annotated_handlers.GetCoreSchemaHandler.field_name	GetCoreSchemaHandler>Attributes>field_name	
+2	pydantic.annotated_handlers.GetCoreSchemaHandler.generate_schema	heading	api/pydantic/annotated_handlers/	pydantic.annotated_handlers.GetCoreSchemaHandler.generate_schema	GetCoreSchemaHandler>Methods>generate_schema	min_length,core_schema.CoreSchema,source_type
+2	pydantic.annotated_handlers.GetCoreSchemaHandler.resolve_ref_schema	heading	api/pydantic/annotated_handlers/	pydantic.annotated_handlers.GetCoreSchemaHandler.resolve_ref_schema	GetCoreSchemaHandler>Methods>resolve_ref_schema#2	core_schema.CoreSchema,maybe_ref_schema,ref
+2	pydantic.annotated_handlers.GetJsonSchemaHandler	heading	api/pydantic/annotated_handlers/	pydantic.annotated_handlers.GetJsonSchemaHandler	Annotated Handlers>GetJsonSchemaHandler	
+2	pydantic.annotated_handlers.GetJsonSchemaHandler.resolve_ref_schema	heading	api/pydantic/annotated_handlers/	pydantic.annotated_handlers.GetJsonSchemaHandler.resolve_ref_schema	GetJsonSchemaHandler>Methods>resolve_ref_schema	maybe_ref_json_schema
+2	pydantic.config.ConfigDict	heading	api/pydantic/config/	pydantic.config.ConfigDict	Configuration>ConfigDict	
+2	pydantic.config.ConfigDict.alias_generator	heading	api/pydantic/config/	pydantic.config.ConfigDict.alias_generator	ConfigDict>Attributes>alias_generator	
+2	pydantic.config.ConfigDict.allow_inf_nan	heading	api/pydantic/config/	pydantic.config.ConfigDict.allow_inf_nan	ConfigDict>Attributes>allow_inf_nan	
+2	pydantic.config.ConfigDict.arbitrary_types_allowed	heading	api/pydantic/config/	pydantic.config.ConfigDict.arbitrary_types_allowed	ConfigDict>Attributes>arbitrary_types_allowed	
+2	pydantic.config.ConfigDict.cache_strings	heading	api/pydantic/config/	pydantic.config.ConfigDict.cache_strings	ConfigDict>Attributes>cache_strings	
+2	pydantic.config.ConfigDict.coerce_numbers_to_str	heading	api/pydantic/config/	pydantic.config.ConfigDict.coerce_numbers_to_str	ConfigDict>Attributes>coerce_numbers_to_str	
+2	pydantic.config.ConfigDict.defer_build	heading	api/pydantic/config/	pydantic.config.ConfigDict.defer_build	ConfigDict>Attributes>defer_build	
+2	pydantic.config.ConfigDict.extra	heading	api/pydantic/config/	pydantic.config.ConfigDict.extra	ConfigDict>Attributes>extra	age
+2	pydantic.config.ConfigDict.field_title_generator	heading	api/pydantic/config/	pydantic.config.ConfigDict.field_title_generator	ConfigDict>Attributes>field_title_generator	
+2	pydantic.config.ConfigDict.from_attributes	heading	api/pydantic/config/	pydantic.config.ConfigDict.from_attributes	ConfigDict>Attributes>from_attributes	
+2	pydantic.config.ConfigDict.frozen	heading	api/pydantic/config/	pydantic.config.ConfigDict.frozen	ConfigDict>Attributes>frozen	
+2	pydantic.config.ConfigDict.hide_input_in_errors	heading	api/pydantic/config/	pydantic.config.ConfigDict.hide_input_in_errors	ConfigDict>Attributes>hide_input_in_errors	
+2	pydantic.config.ConfigDict.ignored_types	heading	api/pydantic/config/	pydantic.config.ConfigDict.ignored_types	ConfigDict>Attributes>ignored_types	property
+2	pydantic.config.ConfigDict.json_encoders	heading	api/pydantic/config/	pydantic.config.ConfigDict.json_encoders	ConfigDict>Attributes>json_encoders	
+2	pydantic.config.ConfigDict.json_schema_extra	heading	api/pydantic/config/	pydantic.config.ConfigDict.json_schema_extra	ConfigDict>Attributes>json_schema_extra	
+2	pydantic.config.ConfigDict.json_schema_mode_override	heading	api/pydantic/config/	pydantic.config.ConfigDict.json_schema_mode_override	ConfigDict>Attributes>json_schema_mode_override	mode
+2	pydantic.config.ConfigDict.json_schema_serialization_defaults_required	heading	api/pydantic/config/	pydantic.config.ConfigDict.json_schema_serialization_defaults_required	ConfigDict>Attributes>json_schema_serialization_defaults_required	
+2	pydantic.config.ConfigDict.loc_by_alias	heading	api/pydantic/config/	pydantic.config.ConfigDict.loc_by_alias	ConfigDict>Attributes>loc_by_alias	loc
+2	pydantic.config.ConfigDict.model_title_generator	heading	api/pydantic/config/	pydantic.config.ConfigDict.model_title_generator	ConfigDict>Attributes>model_title_generator	
+2	pydantic.config.ConfigDict.plugin_settings	heading	api/pydantic/config/	pydantic.config.ConfigDict.plugin_settings	ConfigDict>Attributes>plugin_settings	
+2	pydantic.config.ConfigDict.polymorphic_serialization	heading	api/pydantic/config/	pydantic.config.ConfigDict.polymorphic_serialization	ConfigDict>Attributes>polymorphic_serialization	
+2	pydantic.config.ConfigDict.populate_by_name	heading	api/pydantic/config/	pydantic.config.ConfigDict.populate_by_name	ConfigDict>Attributes>populate_by_name	
+2	pydantic.config.ConfigDict.protected_namespaces	heading	api/pydantic/config/	pydantic.config.ConfigDict.protected_namespaces	ConfigDict>Attributes>protected_namespaces	model_id,model_name
+2	pydantic.config.ConfigDict.regex_engine	heading	api/pydantic/config/	pydantic.config.ConfigDict.regex_engine	ConfigDict>Attributes>regex_engine	regex,re
+2	pydantic.config.ConfigDict.revalidate_instances	heading	api/pydantic/config/	pydantic.config.ConfigDict.revalidate_instances	ConfigDict>Attributes>revalidate_instances	validate_assignment,my_user,my_sub_user
+2	pydantic.config.ConfigDict.schema_generator	heading	api/pydantic/config/	pydantic.config.ConfigDict.schema_generator	ConfigDict>Attributes>schema_generator	
+2	pydantic.config.ConfigDict.ser_json_bytes	heading	api/pydantic/config/	pydantic.config.ConfigDict.ser_json_bytes	ConfigDict>Attributes>ser_json_bytes	val_json_bytes
+2	pydantic.config.ConfigDict.ser_json_inf_nan	heading	api/pydantic/config/	pydantic.config.ConfigDict.ser_json_inf_nan	ConfigDict>Attributes>ser_json_inf_nan	
+2	pydantic.config.ConfigDict.ser_json_temporal	heading	api/pydantic/config/	pydantic.config.ConfigDict.ser_json_temporal	ConfigDict>Attributes>ser_json_temporal	datetime,datetime.datetime,datetime.date,datetime.time,datetime.timedelta,ser_json_timedelta
+2	pydantic.config.ConfigDict.ser_json_timedelta	heading	api/pydantic/config/	pydantic.config.ConfigDict.ser_json_timedelta	ConfigDict>Attributes>ser_json_timedelta	ser_json_temporal
+2	pydantic.config.ConfigDict.serialize_by_alias	heading	api/pydantic/config/	pydantic.config.ConfigDict.serialize_by_alias	ConfigDict>Attributes>serialize_by_alias	
+2	pydantic.config.ConfigDict.str_max_length	heading	api/pydantic/config/	pydantic.config.ConfigDict.str_max_length	ConfigDict>Attributes>str_max_length	
+2	pydantic.config.ConfigDict.str_min_length	heading	api/pydantic/config/	pydantic.config.ConfigDict.str_min_length	ConfigDict>Attributes>str_min_length	
+2	pydantic.config.ConfigDict.str_strip_whitespace	heading	api/pydantic/config/	pydantic.config.ConfigDict.str_strip_whitespace	ConfigDict>Attributes>str_strip_whitespace	
+2	pydantic.config.ConfigDict.str_to_lower	heading	api/pydantic/config/	pydantic.config.ConfigDict.str_to_lower	ConfigDict>Attributes>str_to_lower	
+2	pydantic.config.ConfigDict.str_to_upper	heading	api/pydantic/config/	pydantic.config.ConfigDict.str_to_upper	ConfigDict>Attributes>str_to_upper	
+2	pydantic.config.ConfigDict.strict	heading	api/pydantic/config/	pydantic.config.ConfigDict.strict	ConfigDict>Attributes>strict	
+2	pydantic.config.ConfigDict.title	heading	api/pydantic/config/	pydantic.config.ConfigDict.title	ConfigDict>Attributes>title	
+2	pydantic.config.ConfigDict.url_preserve_empty_path	heading	api/pydantic/config/	pydantic.config.ConfigDict.url_preserve_empty_path	ConfigDict>Attributes>url_preserve_empty_path	
+2	pydantic.config.ConfigDict.use_attribute_docstrings	heading	api/pydantic/config/	pydantic.config.ConfigDict.use_attribute_docstrings	ConfigDict>Attributes>use_attribute_docstrings	
+2	pydantic.config.ConfigDict.use_enum_values	heading	api/pydantic/config/	pydantic.config.ConfigDict.use_enum_values	ConfigDict>Attributes>use_enum_values	
+2	pydantic.config.ConfigDict.val_json_bytes	heading	api/pydantic/config/	pydantic.config.ConfigDict.val_json_bytes	ConfigDict>Attributes>val_json_bytes	ser_json_bytes
+2	pydantic.config.ConfigDict.val_temporal_unit	heading	api/pydantic/config/	pydantic.config.ConfigDict.val_temporal_unit	ConfigDict>Attributes>val_temporal_unit	datetime.datetime,datetime.date
+2	pydantic.config.ConfigDict.validate_assignment	heading	api/pydantic/config/	pydantic.config.ConfigDict.validate_assignment	ConfigDict>Attributes>validate_assignment	model_config
+2	pydantic.config.ConfigDict.validate_by_alias	heading	api/pydantic/config/	pydantic.config.ConfigDict.validate_by_alias	ConfigDict>Attributes>validate_by_alias	validate_by_name
+2	pydantic.config.ConfigDict.validate_by_name	heading	api/pydantic/config/	pydantic.config.ConfigDict.validate_by_name	ConfigDict>Attributes>validate_by_name	validate_by_alias,populate_by_name
+2	pydantic.config.ConfigDict.validate_default	heading	api/pydantic/config/	pydantic.config.ConfigDict.validate_default	ConfigDict>Attributes>validate_default	
+2	pydantic.config.ConfigDict.validate_return	heading	api/pydantic/config/	pydantic.config.ConfigDict.validate_return	ConfigDict>Attributes>validate_return	
+2	pydantic.config.ConfigDict.validation_error_cause	heading	api/pydantic/config/	pydantic.config.ConfigDict.validation_error_cause	ConfigDict>Attributes>validation_error_cause	
+2	pydantic.config.ExtraValues	heading	api/pydantic/config/	pydantic.config.ExtraValues	Configuration>ExtraValues	
+2	pydantic.config.with_config	heading	api/pydantic/config/	pydantic.config.with_config	Configuration>with_config	dataclass,config
+2	pydantic.create_model	heading	api/pydantic/base_model/	pydantic.create_model	BaseModel>create_model	model_name,model_config,metaclass
+2	pydantic.dataclasses.dataclass	heading	api/pydantic/dataclasses/	pydantic.dataclasses.dataclass	Pydantic Dataclasses>dataclass	init,dataclasses.dataclass,repr,eq,order,unsafe_hash,frozen
+2	pydantic.dataclasses.is_pydantic_dataclass	heading	api/pydantic/dataclasses/	pydantic.dataclasses.is_pydantic_dataclass	Pydantic Dataclasses>is_pydantic_dataclass	class_
+2	pydantic.dataclasses.rebuild_dataclass	heading	api/pydantic/dataclasses/	pydantic.dataclasses.rebuild_dataclass	Pydantic Dataclasses>rebuild_dataclass	force,raise_errors
+2	pydantic.errors.PydanticErrorMixin	heading	api/pydantic/errors/	pydantic.errors.PydanticErrorMixin	Errors>PydanticErrorMixin	
+2	pydantic.errors.PydanticForbiddenQualifier	heading	api/pydantic/errors/	pydantic.errors.PydanticForbiddenQualifier	Errors>PydanticForbiddenQualifier	
+2	pydantic.errors.PydanticImportError	heading	api/pydantic/errors/	pydantic.errors.PydanticImportError	Errors>PydanticImportError	
+2	pydantic.errors.PydanticInvalidForJsonSchema	heading	api/pydantic/errors/	pydantic.errors.PydanticInvalidForJsonSchema	Errors>PydanticInvalidForJsonSchema	
+2	pydantic.errors.PydanticSchemaGenerationError	heading	api/pydantic/errors/	pydantic.errors.PydanticSchemaGenerationError	Errors>PydanticSchemaGenerationError	
+2	pydantic.errors.PydanticUndefinedAnnotation	heading	api/pydantic/errors/	pydantic.errors.PydanticUndefinedAnnotation	Errors>PydanticUndefinedAnnotation	
+2	pydantic.errors.PydanticUndefinedAnnotation.from_name_error	heading	api/pydantic/errors/	pydantic.errors.PydanticUndefinedAnnotation.from_name_error	PydanticUndefinedAnnotation>Methods>from_name_error	name_error
+2	pydantic.errors.PydanticUserError	heading	api/pydantic/errors/	pydantic.errors.PydanticUserError	Errors>PydanticUserError	
+2	pydantic.experimental.arguments_schema.generate_arguments_schema	heading	api/pydantic/experimental/	pydantic.experimental.arguments_schema.generate_arguments_schema	Experimental API>generate_arguments_schema	func,schema_type,parameters_callback,config
+2	pydantic.experimental.pipeline._Pipeline	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline	Experimental API>_Pipeline	
+2	pydantic.experimental.pipeline._Pipeline.constrain	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.constrain	_Pipeline>Methods>constrain	annotated_types,gt,lt,len
+2	pydantic.experimental.pipeline._Pipeline.datetime_tz	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.datetime_tz	_Pipeline>Methods>datetime_tz	datetime.datetime,tz,datetime.tzinfo
+2	pydantic.experimental.pipeline._Pipeline.datetime_tz_aware	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.datetime_tz_aware	_Pipeline>Methods>datetime_tz_aware	datetime.datetime
+2	pydantic.experimental.pipeline._Pipeline.datetime_tz_naive	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.datetime_tz_naive	_Pipeline>Methods>datetime_tz_naive	datetime.datetime
+2	pydantic.experimental.pipeline._Pipeline.datetime_with_tz	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.datetime_with_tz	_Pipeline>Methods>datetime_with_tz	datetime_tz,tzinfo,tz,datetime.datetime,datetime.tzinfo
+2	pydantic.experimental.pipeline._Pipeline.eq	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.eq	_Pipeline>Methods>eq	
+2	pydantic.experimental.pipeline._Pipeline.ge	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.ge	_Pipeline>Methods>ge	
+2	pydantic.experimental.pipeline._Pipeline.gt	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.gt	_Pipeline>Methods>gt	
+2	pydantic.experimental.pipeline._Pipeline.in_	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.in_	_Pipeline>Methods>in_	
+2	pydantic.experimental.pipeline._Pipeline.le	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.le	_Pipeline>Methods>le	
+2	pydantic.experimental.pipeline._Pipeline.len	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.len	_Pipeline>Methods>len	
+2	pydantic.experimental.pipeline._Pipeline.lt	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.lt	_Pipeline>Methods>lt	
+2	pydantic.experimental.pipeline._Pipeline.multiple_of	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.multiple_of	_Pipeline>Methods>multiple_of	
+2	pydantic.experimental.pipeline._Pipeline.not_eq	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.not_eq	_Pipeline>Methods>not_eq	
+2	pydantic.experimental.pipeline._Pipeline.not_in	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.not_in	_Pipeline>Methods>not_in	
+2	pydantic.experimental.pipeline._Pipeline.otherwise	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.otherwise	_Pipeline>Methods>otherwise	
+2	pydantic.experimental.pipeline._Pipeline.predicate	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.predicate	_Pipeline>Methods>predicate	
+2	pydantic.experimental.pipeline._Pipeline.str_contains	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_contains	_Pipeline>Methods>str_contains	substring
+2	pydantic.experimental.pipeline._Pipeline.str_ends_with	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_ends_with	_Pipeline>Methods>str_ends_with	suffix
+2	pydantic.experimental.pipeline._Pipeline.str_lower	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_lower	_Pipeline>Methods>str_lower	
+2	pydantic.experimental.pipeline._Pipeline.str_pattern	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_pattern	_Pipeline>Methods>str_pattern	pattern
+2	pydantic.experimental.pipeline._Pipeline.str_starts_with	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_starts_with	_Pipeline>Methods>str_starts_with	prefix
+2	pydantic.experimental.pipeline._Pipeline.str_strip	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_strip	_Pipeline>Methods>str_strip	
+2	pydantic.experimental.pipeline._Pipeline.str_title	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_title	_Pipeline>Methods>str_title	
+2	pydantic.experimental.pipeline._Pipeline.str_upper	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.str_upper	_Pipeline>Methods>str_upper	
+2	pydantic.experimental.pipeline._Pipeline.then	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.then	_Pipeline>Methods>then	
+2	pydantic.experimental.pipeline._Pipeline.transform	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.transform	_Pipeline>Methods>transform	
+2	pydantic.experimental.pipeline._Pipeline.validate_as	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.validate_as	_Pipeline>Methods>validate_as	lax,strict
+2	pydantic.experimental.pipeline._Pipeline.validate_as_deferred	heading	api/pydantic/experimental/	pydantic.experimental.pipeline._Pipeline.validate_as_deferred	_Pipeline>Methods>validate_as_deferred	
+2	pydantic.fields.ComputedFieldInfo	heading	api/pydantic/fields/	pydantic.fields.ComputedFieldInfo	Fields>ComputedFieldInfo	
+2	pydantic.fields.ComputedFieldInfo._apply_alias_generator	heading	api/pydantic/fields/	pydantic.fields.ComputedFieldInfo._apply_alias_generator	ComputedFieldInfo>Methods>_apply_alias_generator	alias_generator
+2	pydantic.fields.ComputedFieldInfo._update_from_config	heading	api/pydantic/fields/	pydantic.fields.ComputedFieldInfo._update_from_config	ComputedFieldInfo>Methods>_update_from_config	
+2	pydantic.fields.ComputedFieldInfo.deprecation_message	heading	api/pydantic/fields/	pydantic.fields.ComputedFieldInfo.deprecation_message	ComputedFieldInfo>Attributes>deprecation_message#2	
+2	pydantic.fields.Field	heading	api/pydantic/fields/	pydantic.fields.Field	Fields>Field	default_factory,alias,alias_priority,validation_alias,serialization_alias,title,field_title_generator,description,examples,exclude,exclude_if,discriminator
+2	pydantic.fields.FieldInfo	heading	api/pydantic/fields/	pydantic.fields.FieldInfo	Fields>FieldInfo	
+2	pydantic.fields.FieldInfo._collect_metadata	heading	api/pydantic/fields/	pydantic.fields.FieldInfo._collect_metadata	FieldInfo>Methods>_collect_metadata	annotated_types.BaseMetadata
+2	pydantic.fields.FieldInfo._construct	heading	api/pydantic/fields/	pydantic.fields.FieldInfo._construct	FieldInfo>Methods>_construct	metadata,description,lt
+2	pydantic.fields.FieldInfo._copy	heading	api/pydantic/fields/	pydantic.fields.FieldInfo._copy	FieldInfo>Methods>_copy	
+2	pydantic.fields.FieldInfo._from_dataclass_field	heading	api/pydantic/fields/	pydantic.fields.FieldInfo._from_dataclass_field	FieldInfo>Methods>_from_dataclass_field	dataclasses.Field,dc_field,dataclass.Field
+2	pydantic.fields.FieldInfo.asdict	heading	api/pydantic/fields/	pydantic.fields.FieldInfo.asdict	FieldInfo>Methods>asdict	annotation,metadata,attributes,alias,title
+2	pydantic.fields.FieldInfo.default_factory_takes_validated_data	heading	api/pydantic/fields/	pydantic.fields.FieldInfo.default_factory_takes_validated_data	FieldInfo>Attributes>default_factory_takes_validated_data	
+2	pydantic.fields.FieldInfo.deprecation_message	heading	api/pydantic/fields/	pydantic.fields.FieldInfo.deprecation_message	FieldInfo>Attributes>deprecation_message	
+2	pydantic.fields.FieldInfo.get_default	heading	api/pydantic/fields/	pydantic.fields.FieldInfo.get_default	FieldInfo>Methods>get_default	model_construct,call_default_factory,validated_data
+2	pydantic.fields.FieldInfo.is_required	heading	api/pydantic/fields/	pydantic.fields.FieldInfo.is_required	FieldInfo>Methods>is_required	
+2	pydantic.fields.ModelPrivateAttr	heading	api/pydantic/fields/	pydantic.fields.ModelPrivateAttr	Fields>ModelPrivateAttr	
+2	pydantic.fields.ModelPrivateAttr.__getattr__	heading	api/pydantic/fields/	pydantic.fields.ModelPrivateAttr.__getattr__	ModelPrivateAttr>Methods>__getattr__	
+2	pydantic.fields.ModelPrivateAttr.__set_name__	heading	api/pydantic/fields/	pydantic.fields.ModelPrivateAttr.__set_name__	ModelPrivateAttr>Methods>__set_name__	
+2	pydantic.fields.ModelPrivateAttr.default_factory_takes_validated_data	heading	api/pydantic/fields/	pydantic.fields.ModelPrivateAttr.default_factory_takes_validated_data	ModelPrivateAttr>Attributes>default_factory_takes_validated_data#2	
+2	pydantic.fields.ModelPrivateAttr.get_default	heading	api/pydantic/fields/	pydantic.fields.ModelPrivateAttr.get_default	ModelPrivateAttr>Methods>get_default#2	model_construct,call_default_factory,validated_data
+2	pydantic.fields.PrivateAttr	heading	api/pydantic/fields/	pydantic.fields.PrivateAttr	Fields>PrivateAttr	default_factory,init
+2	pydantic.fields.computed_field	heading	api/pydantic/fields/	pydantic.fields.computed_field	Fields>computed_field	property,cached_property,repr,func,alias,by_alias,alias_priority,exclude_if,title,field_title_generator,description,deprecated
+2	pydantic.functional_serializers.FieldPlainSerializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.FieldPlainSerializer	Functional Serializers>FieldPlainSerializer	plain
+2	pydantic.functional_serializers.FieldSerializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.FieldSerializer	Functional Serializers>FieldSerializer	
+2	pydantic.functional_serializers.FieldWrapSerializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.FieldWrapSerializer	Functional Serializers>FieldWrapSerializer	wrap
+2	pydantic.functional_serializers.ModelPlainSerializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.ModelPlainSerializer	Functional Serializers>ModelPlainSerializer	plain
+2	pydantic.functional_serializers.ModelPlainSerializerWithInfo	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.ModelPlainSerializerWithInfo	Functional Serializers>ModelPlainSerializerWithInfo	info,plain
+2	pydantic.functional_serializers.ModelPlainSerializerWithoutInfo	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.ModelPlainSerializerWithoutInfo	Functional Serializers>ModelPlainSerializerWithoutInfo	info,plain
+2	pydantic.functional_serializers.ModelWrapSerializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.ModelWrapSerializer	Functional Serializers>ModelWrapSerializer	wrap
+2	pydantic.functional_serializers.ModelWrapSerializerWithInfo	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.ModelWrapSerializerWithInfo	Functional Serializers>ModelWrapSerializerWithInfo	info,wrap
+2	pydantic.functional_serializers.ModelWrapSerializerWithoutInfo	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.ModelWrapSerializerWithoutInfo	Functional Serializers>ModelWrapSerializerWithoutInfo	info,wrap
+2	pydantic.functional_serializers.PlainSerializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.PlainSerializer	Functional Serializers>PlainSerializer	
+2	pydantic.functional_serializers.SerializeAsAny	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.SerializeAsAny	Functional Serializers>SerializeAsAny	
+2	pydantic.functional_serializers.WrapSerializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.WrapSerializer	Functional Serializers>WrapSerializer	
+2	pydantic.functional_serializers.field_serializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.field_serializer	Functional Serializers>field_serializer	mode,plain,wrap,return_type,when_used,check_fields
+2	pydantic.functional_serializers.model_serializer	heading	api/pydantic/functional_serializers/	pydantic.functional_serializers.model_serializer	Functional Serializers>model_serializer	mode,when_used,return_type
+2	pydantic.functional_validators.AfterValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.AfterValidator	Functional Validators>AfterValidator	
+2	pydantic.functional_validators.BeforeValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.BeforeValidator	Functional Validators>BeforeValidator	
+2	pydantic.functional_validators.FreeModelBeforeValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.FreeModelBeforeValidator	Functional Validators>FreeModelBeforeValidator	
+2	pydantic.functional_validators.FreeModelBeforeValidatorWithoutInfo	heading	api/pydantic/functional_validators/	pydantic.functional_validators.FreeModelBeforeValidatorWithoutInfo	Functional Validators>FreeModelBeforeValidatorWithoutInfo	
+2	pydantic.functional_validators.InstanceOf	heading	api/pydantic/functional_validators/	pydantic.functional_validators.InstanceOf	Functional Validators>InstanceOf	
+2	pydantic.functional_validators.ModelAfterValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ModelAfterValidator	Functional Validators>ModelAfterValidator	mode
+2	pydantic.functional_validators.ModelAfterValidatorWithoutInfo	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ModelAfterValidatorWithoutInfo	Functional Validators>ModelAfterValidatorWithoutInfo	mode
+2	pydantic.functional_validators.ModelBeforeValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ModelBeforeValidator	Functional Validators>ModelBeforeValidator	
+2	pydantic.functional_validators.ModelBeforeValidatorWithoutInfo	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ModelBeforeValidatorWithoutInfo	Functional Validators>ModelBeforeValidatorWithoutInfo	
+2	pydantic.functional_validators.ModelWrapValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ModelWrapValidator	Functional Validators>ModelWrapValidator	
+2	pydantic.functional_validators.ModelWrapValidatorHandler	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ModelWrapValidatorHandler	Functional Validators>ModelWrapValidatorHandler	
+2	pydantic.functional_validators.ModelWrapValidatorWithoutInfo	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ModelWrapValidatorWithoutInfo	Functional Validators>ModelWrapValidatorWithoutInfo	
+2	pydantic.functional_validators.PlainValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.PlainValidator	Functional Validators>PlainValidator	
+2	pydantic.functional_validators.SkipValidation	heading	api/pydantic/functional_validators/	pydantic.functional_validators.SkipValidation	Functional Validators>SkipValidation	
+2	pydantic.functional_validators.ValidateAs	heading	api/pydantic/functional_validators/	pydantic.functional_validators.ValidateAs	Functional Validators>ValidateAs	
+2	pydantic.functional_validators.WrapValidator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.WrapValidator	Functional Validators>WrapValidator	
+2	pydantic.functional_validators.field_validator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.field_validator	Functional Validators>field_validator	mode,check_fields,json_schema_input_type
+2	pydantic.functional_validators.model_validator	heading	api/pydantic/functional_validators/	pydantic.functional_validators.model_validator	Functional Validators>model_validator	mode
+2	pydantic.json_schema.CoreSchemaOrFieldType	heading	api/pydantic/json_schema/	pydantic.json_schema.CoreSchemaOrFieldType	JSON Schema>CoreSchemaOrFieldType	core_schema.CoreSchemaType,core_schema.CoreSchemaFieldType
+2	pydantic.json_schema.DEFAULT_REF_TEMPLATE	heading	api/pydantic/json_schema/	pydantic.json_schema.DEFAULT_REF_TEMPLATE	JSON Schema>DEFAULT_REF_TEMPLATE	
+2	pydantic.json_schema.Examples	heading	api/pydantic/json_schema/	pydantic.json_schema.Examples	JSON Schema>Examples	
+2	pydantic.json_schema.GenerateJsonSchema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema	JSON Schema>GenerateJsonSchema	
+2	pydantic.json_schema.GenerateJsonSchema.any_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.any_schema	GenerateJsonSchema>Methods>any_schema	schema,core_schema.AnySchema
+2	pydantic.json_schema.GenerateJsonSchema.arguments_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.arguments_schema	GenerateJsonSchema>Methods>arguments_schema	schema,core_schema.ArgumentsSchema
+2	pydantic.json_schema.GenerateJsonSchema.arguments_v3_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.arguments_v3_schema	GenerateJsonSchema>Methods>arguments_v3_schema	schema,core_schema.ArgumentsV3Schema
+2	pydantic.json_schema.GenerateJsonSchema.bool_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.bool_schema	GenerateJsonSchema>Methods>bool_schema	schema,core_schema.BoolSchema
+2	pydantic.json_schema.GenerateJsonSchema.build_decimal_pattern	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.build_decimal_pattern	GenerateJsonSchema>Methods>build_decimal_pattern	max_digits,decimal_places,allow_inf_nan,schema,core_schema.DecimalSchema
+2	pydantic.json_schema.GenerateJsonSchema.build_schema_type_to_method	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.build_schema_type_to_method	GenerateJsonSchema>Methods>build_schema_type_to_method	
+2	pydantic.json_schema.GenerateJsonSchema.bytes_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.bytes_schema	GenerateJsonSchema>Methods>bytes_schema	schema,core_schema.BytesSchema
+2	pydantic.json_schema.GenerateJsonSchema.call_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.call_schema	GenerateJsonSchema>Methods>call_schema	schema,core_schema.CallSchema
+2	pydantic.json_schema.GenerateJsonSchema.callable_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.callable_schema	GenerateJsonSchema>Methods>callable_schema	schema,core_schema.CallableSchema
+2	pydantic.json_schema.GenerateJsonSchema.chain_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.chain_schema	GenerateJsonSchema>Methods>chain_schema	schema,core_schema.ChainSchema
+2	pydantic.json_schema.GenerateJsonSchema.complex_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.complex_schema	GenerateJsonSchema>Methods>complex_schema	complex,schema,core_schema.ComplexSchema
+2	pydantic.json_schema.GenerateJsonSchema.computed_field_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.computed_field_schema	GenerateJsonSchema>Methods>computed_field_schema	schema,core_schema.ComputedField
+2	pydantic.json_schema.GenerateJsonSchema.counter_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.counter_schema	GenerateJsonSchema>Methods>counter_schema	schema,core_schema.CounterSchema
+2	pydantic.json_schema.GenerateJsonSchema.custom_error_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.custom_error_schema	GenerateJsonSchema>Methods>custom_error_schema	schema,core_schema.CustomErrorSchema
+2	pydantic.json_schema.GenerateJsonSchema.dataclass_args_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.dataclass_args_schema	GenerateJsonSchema>Methods>dataclass_args_schema	schema,core_schema.DataclassArgsSchema
+2	pydantic.json_schema.GenerateJsonSchema.dataclass_field_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.dataclass_field_schema	GenerateJsonSchema>Methods>dataclass_field_schema	schema,core_schema.DataclassField
+2	pydantic.json_schema.GenerateJsonSchema.dataclass_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.dataclass_schema	GenerateJsonSchema>Methods>dataclass_schema	schema,core_schema.DataclassSchema
+2	pydantic.json_schema.GenerateJsonSchema.date_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.date_schema	GenerateJsonSchema>Methods>date_schema	schema,core_schema.DateSchema
+2	pydantic.json_schema.GenerateJsonSchema.datetime_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.datetime_schema	GenerateJsonSchema>Methods>datetime_schema	schema,core_schema.DatetimeSchema
+2	pydantic.json_schema.GenerateJsonSchema.decimal_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.decimal_schema	GenerateJsonSchema>Methods>decimal_schema	schema,core_schema.DecimalSchema
+2	pydantic.json_schema.GenerateJsonSchema.default_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.default_schema	GenerateJsonSchema>Methods>default_schema	schema,core_schema.WithDefaultSchema
+2	pydantic.json_schema.GenerateJsonSchema.definition_ref_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.definition_ref_schema	GenerateJsonSchema>Methods>definition_ref_schema	schema,core_schema.DefinitionReferenceSchema
+2	pydantic.json_schema.GenerateJsonSchema.definitions_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.definitions_schema	GenerateJsonSchema>Methods>definitions_schema	schema,core_schema.DefinitionsSchema
+2	pydantic.json_schema.GenerateJsonSchema.deque_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.deque_schema	GenerateJsonSchema>Methods>deque_schema	schema,core_schema.DequeSchema
+2	pydantic.json_schema.GenerateJsonSchema.dict_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.dict_schema	GenerateJsonSchema>Methods>dict_schema	schema,core_schema.DictSchema
+2	pydantic.json_schema.GenerateJsonSchema.ellipsis_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.ellipsis_schema	GenerateJsonSchema>Methods>ellipsis_schema	schema,core_schema.EllipsisSchema
+2	pydantic.json_schema.GenerateJsonSchema.emit_warning	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.emit_warning	GenerateJsonSchema>Methods>emit_warning	warning_message
+2	pydantic.json_schema.GenerateJsonSchema.encode_default	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.encode_default	GenerateJsonSchema>Methods>encode_default	dft
+2	pydantic.json_schema.GenerateJsonSchema.enum_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.enum_schema	GenerateJsonSchema>Methods>enum_schema	schema,core_schema.EnumSchema
+2	pydantic.json_schema.GenerateJsonSchema.field_is_present	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.field_is_present	GenerateJsonSchema>Methods>field_is_present	field
+2	pydantic.json_schema.GenerateJsonSchema.field_is_required	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.field_is_required	GenerateJsonSchema>Methods>field_is_required	field,core_schema.ModelField,core_schema.DataclassField,core_schema.TypedDictField,total,required
+2	pydantic.json_schema.GenerateJsonSchema.field_title_should_be_set	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.field_title_should_be_set	GenerateJsonSchema>Methods>field_title_should_be_set	schema
+2	pydantic.json_schema.GenerateJsonSchema.float_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.float_schema	GenerateJsonSchema>Methods>float_schema	schema,core_schema.FloatSchema
+2	pydantic.json_schema.GenerateJsonSchema.fraction_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.fraction_schema	GenerateJsonSchema>Methods>fraction_schema	schema,core_schema.FractionSchema
+2	pydantic.json_schema.GenerateJsonSchema.frozendict_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.frozendict_schema	GenerateJsonSchema>Methods>frozendict_schema	schema,core_schema.FrozenDictSchema
+2	pydantic.json_schema.GenerateJsonSchema.frozenset_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.frozenset_schema	GenerateJsonSchema>Methods>frozenset_schema	schema,core_schema.FrozenSetSchema
+2	pydantic.json_schema.GenerateJsonSchema.function_after_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.function_after_schema	GenerateJsonSchema>Methods>function_after_schema	schema,core_schema.AfterValidatorFunctionSchema
+2	pydantic.json_schema.GenerateJsonSchema.function_before_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.function_before_schema	GenerateJsonSchema>Methods>function_before_schema	schema
+2	pydantic.json_schema.GenerateJsonSchema.function_plain_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.function_plain_schema	GenerateJsonSchema>Methods>function_plain_schema	schema,core_schema.PlainValidatorFunctionSchema
+2	pydantic.json_schema.GenerateJsonSchema.function_wrap_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.function_wrap_schema	GenerateJsonSchema>Methods>function_wrap_schema	schema,core_schema.WrapValidatorFunctionSchema
+2	pydantic.json_schema.GenerateJsonSchema.generate	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.generate	GenerateJsonSchema>Methods>generate	schema,mode
+2	pydantic.json_schema.GenerateJsonSchema.generate_definitions	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.generate_definitions	GenerateJsonSchema>Methods>generate_definitions	inputs,core_schema.CoreSchema
+2	pydantic.json_schema.GenerateJsonSchema.generate_inner	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.generate_inner	GenerateJsonSchema>Methods>generate_inner	schema
+2	pydantic.json_schema.GenerateJsonSchema.generator_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.generator_schema	GenerateJsonSchema>Methods>generator_schema	schema,core_schema.GeneratorSchema
+2	pydantic.json_schema.GenerateJsonSchema.get_argument_name	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_argument_name	GenerateJsonSchema>Methods>get_argument_name	argument,core_schema.ArgumentsParameter,core_schema.ArgumentsV3Parameter
+2	pydantic.json_schema.GenerateJsonSchema.get_cache_defs_ref_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_cache_defs_ref_schema	GenerateJsonSchema>Methods>get_cache_defs_ref_schema	core_ref
+2	pydantic.json_schema.GenerateJsonSchema.get_decimal_pattern	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_decimal_pattern	GenerateJsonSchema>Methods>get_decimal_pattern	build_decimal_pattern,max_digits,decimal_places,schema,core_schema.DecimalSchema
+2	pydantic.json_schema.GenerateJsonSchema.get_default_value	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_default_value	GenerateJsonSchema>Methods>get_default_value	schema,core_schema.WithDefaultSchema
+2	pydantic.json_schema.GenerateJsonSchema.get_defs_ref	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_defs_ref	GenerateJsonSchema>Methods>get_defs_ref	core_mode_ref
+2	pydantic.json_schema.GenerateJsonSchema.get_json_ref_counts	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_json_ref_counts	GenerateJsonSchema>Methods>get_json_ref_counts	
+2	pydantic.json_schema.GenerateJsonSchema.get_title_from_name	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_title_from_name	GenerateJsonSchema>Methods>get_title_from_name	
+2	pydantic.json_schema.GenerateJsonSchema.get_union_of_schemas	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.get_union_of_schemas	GenerateJsonSchema>Methods>get_union_of_schemas	schemas
+2	pydantic.json_schema.GenerateJsonSchema.handle_ref_overrides	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.handle_ref_overrides	GenerateJsonSchema>Methods>handle_ref_overrides	json_schema
+2	pydantic.json_schema.GenerateJsonSchema.int_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.int_schema	GenerateJsonSchema>Methods>int_schema	schema,core_schema.IntSchema
+2	pydantic.json_schema.GenerateJsonSchema.invalid_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.invalid_schema	GenerateJsonSchema>Methods>invalid_schema	
+2	pydantic.json_schema.GenerateJsonSchema.is_instance_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.is_instance_schema	GenerateJsonSchema>Methods>is_instance_schema	schema,core_schema.IsInstanceSchema
+2	pydantic.json_schema.GenerateJsonSchema.is_subclass_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.is_subclass_schema	GenerateJsonSchema>Methods>is_subclass_schema	schema,core_schema.IsSubclassSchema
+2	pydantic.json_schema.GenerateJsonSchema.json_or_python_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.json_or_python_schema	GenerateJsonSchema>Methods>json_or_python_schema	schema,core_schema.JsonOrPythonSchema
+2	pydantic.json_schema.GenerateJsonSchema.json_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.json_schema	GenerateJsonSchema>Methods>json_schema	schema,core_schema.JsonSchema
+2	pydantic.json_schema.GenerateJsonSchema.kw_arguments_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.kw_arguments_schema	GenerateJsonSchema>Methods>kw_arguments_schema	arguments,core_schema.ArgumentsParameter
+2	pydantic.json_schema.GenerateJsonSchema.lax_or_strict_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.lax_or_strict_schema	GenerateJsonSchema>Methods>lax_or_strict_schema	schema,core_schema.LaxOrStrictSchema
+2	pydantic.json_schema.GenerateJsonSchema.list_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.list_schema	GenerateJsonSchema>Methods>list_schema	schema,core_schema.ListSchema
+2	pydantic.json_schema.GenerateJsonSchema.literal_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.literal_schema	GenerateJsonSchema>Methods>literal_schema	schema,core_schema.LiteralSchema
+2	pydantic.json_schema.GenerateJsonSchema.missing_sentinel_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.missing_sentinel_schema	GenerateJsonSchema>Methods>missing_sentinel_schema	schema,core_schema.MissingSentinelSchema
+2	pydantic.json_schema.GenerateJsonSchema.model_field_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.model_field_schema	GenerateJsonSchema>Methods>model_field_schema	schema,core_schema.ModelField
+2	pydantic.json_schema.GenerateJsonSchema.model_fields_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.model_fields_schema	GenerateJsonSchema>Methods>model_fields_schema	schema,core_schema.ModelFieldsSchema
+2	pydantic.json_schema.GenerateJsonSchema.model_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.model_schema	GenerateJsonSchema>Methods>model_schema	schema,core_schema.ModelSchema
+2	pydantic.json_schema.GenerateJsonSchema.multi_host_url_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.multi_host_url_schema	GenerateJsonSchema>Methods>multi_host_url_schema	schema,core_schema.MultiHostUrlSchema
+2	pydantic.json_schema.GenerateJsonSchema.named_tuple_field_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.named_tuple_field_schema	GenerateJsonSchema>Methods>named_tuple_field_schema	schema,core_schema.NamedTupleField
+2	pydantic.json_schema.GenerateJsonSchema.named_tuple_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.named_tuple_schema	GenerateJsonSchema>Methods>named_tuple_schema	schema,core_schema.NamedTupleSchema
+2	pydantic.json_schema.GenerateJsonSchema.none_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.none_schema	GenerateJsonSchema>Methods>none_schema	schema,core_schema.NoneSchema
+2	pydantic.json_schema.GenerateJsonSchema.normalize_name	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.normalize_name	GenerateJsonSchema>Methods>normalize_name	
+2	pydantic.json_schema.GenerateJsonSchema.nullable_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.nullable_schema	GenerateJsonSchema>Methods>nullable_schema	schema,core_schema.NullableSchema
+2	pydantic.json_schema.GenerateJsonSchema.ordered_dict_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.ordered_dict_schema	GenerateJsonSchema>Methods>ordered_dict_schema	schema,core_schema.OrderedDictSchema
+2	pydantic.json_schema.GenerateJsonSchema.p_arguments_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.p_arguments_schema	GenerateJsonSchema>Methods>p_arguments_schema	arguments,core_schema.ArgumentsParameter
+2	pydantic.json_schema.GenerateJsonSchema.render_warning_message	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.render_warning_message	GenerateJsonSchema>Methods>render_warning_message	ignored_warning_kinds,kind,detail
+2	pydantic.json_schema.GenerateJsonSchema.resolve_ref_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.resolve_ref_schema	GenerateJsonSchema>Methods>resolve_ref_schema	json_schema
+2	pydantic.json_schema.GenerateJsonSchema.ser_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.ser_schema	GenerateJsonSchema>Methods>ser_schema	schema,core_schema.SerSchema,core_schema.IncExSeqSerSchema,core_schema.IncExDictSerSchema
+2	pydantic.json_schema.GenerateJsonSchema.set_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.set_schema	GenerateJsonSchema>Methods>set_schema	schema,core_schema.SetSchema
+2	pydantic.json_schema.GenerateJsonSchema.sort	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.sort	GenerateJsonSchema>Methods>sort	
+2	pydantic.json_schema.GenerateJsonSchema.str_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.str_schema	GenerateJsonSchema>Methods>str_schema	schema,core_schema.StringSchema
+2	pydantic.json_schema.GenerateJsonSchema.tagged_union_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.tagged_union_schema	GenerateJsonSchema>Methods>tagged_union_schema	schema,core_schema.TaggedUnionSchema
+2	pydantic.json_schema.GenerateJsonSchema.time_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.time_schema	GenerateJsonSchema>Methods>time_schema	schema,core_schema.TimeSchema
+2	pydantic.json_schema.GenerateJsonSchema.timedelta_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.timedelta_schema	GenerateJsonSchema>Methods>timedelta_schema	schema,core_schema.TimedeltaSchema
+2	pydantic.json_schema.GenerateJsonSchema.tuple_positional_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.tuple_positional_schema	GenerateJsonSchema>Methods>tuple_positional_schema	tuple_schema
+2	pydantic.json_schema.GenerateJsonSchema.tuple_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.tuple_schema	GenerateJsonSchema>Methods>tuple_schema	schema,core_schema.TupleSchema
+2	pydantic.json_schema.GenerateJsonSchema.tuple_variable_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.tuple_variable_schema	GenerateJsonSchema>Methods>tuple_variable_schema	tuple_schema
+2	pydantic.json_schema.GenerateJsonSchema.typed_dict_field_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.typed_dict_field_schema	GenerateJsonSchema>Methods>typed_dict_field_schema	schema,core_schema.TypedDictField
+2	pydantic.json_schema.GenerateJsonSchema.typed_dict_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.typed_dict_schema	GenerateJsonSchema>Methods>typed_dict_schema	schema,core_schema.TypedDictSchema
+2	pydantic.json_schema.GenerateJsonSchema.union_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.union_schema	GenerateJsonSchema>Methods>union_schema	schema,core_schema.UnionSchema
+2	pydantic.json_schema.GenerateJsonSchema.update_with_validations	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.update_with_validations	GenerateJsonSchema>Methods>update_with_validations	json_schema,core_schema,mapping
+2	pydantic.json_schema.GenerateJsonSchema.url_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.url_schema	GenerateJsonSchema>Methods>url_schema	schema,core_schema.UrlSchema
+2	pydantic.json_schema.GenerateJsonSchema.uuid_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.GenerateJsonSchema.uuid_schema	GenerateJsonSchema>Methods>uuid_schema	schema,core_schema.UuidSchema
+2	pydantic.json_schema.JsonSchemaMode	heading	api/pydantic/json_schema/	pydantic.json_schema.JsonSchemaMode	JSON Schema>JsonSchemaMode	
+2	pydantic.json_schema.JsonSchemaValue	heading	api/pydantic/json_schema/	pydantic.json_schema.JsonSchemaValue	JSON Schema>JsonSchemaValue	
+2	pydantic.json_schema.JsonSchemaWarningKind	heading	api/pydantic/json_schema/	pydantic.json_schema.JsonSchemaWarningKind	JSON Schema>JsonSchemaWarningKind	
+2	pydantic.json_schema.NoDefault	heading	api/pydantic/json_schema/	pydantic.json_schema.NoDefault	JSON Schema>NoDefault	
+2	pydantic.json_schema.PydanticJsonSchemaWarning	heading	api/pydantic/json_schema/	pydantic.json_schema.PydanticJsonSchemaWarning	JSON Schema>PydanticJsonSchemaWarning	
+2	pydantic.json_schema.SkipJsonSchema	heading	api/pydantic/json_schema/	pydantic.json_schema.SkipJsonSchema	JSON Schema>SkipJsonSchema	
+2	pydantic.json_schema.WithJsonSchema	heading	api/pydantic/json_schema/	pydantic.json_schema.WithJsonSchema	JSON Schema>WithJsonSchema	
+2	pydantic.json_schema.model_json_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.model_json_schema	JSON Schema>model_json_schema	by_alias,validate_by_alias,ref_template,union_format,anyOf,integer,any_of,schema_generator,mode
+2	pydantic.json_schema.models_json_schema	heading	api/pydantic/json_schema/	pydantic.json_schema.models_json_schema	JSON Schema>models_json_schema	models,by_alias,validate_by_alias,title,description,ref_template,union_format,anyOf,integer,any_of,schema_generator
+2	pydantic.networks.AmqpDsn	heading	api/pydantic/networks/	pydantic.networks.AmqpDsn	Network Types>AmqpDsn	
+2	pydantic.networks.AnyHttpUrl	heading	api/pydantic/networks/	pydantic.networks.AnyHttpUrl	Network Types>AnyHttpUrl	
+2	pydantic.networks.AnyUrl	heading	api/pydantic/networks/	pydantic.networks.AnyUrl	Network Types>AnyUrl	
+2	pydantic.networks.AnyWebsocketUrl	heading	api/pydantic/networks/	pydantic.networks.AnyWebsocketUrl	Network Types>AnyWebsocketUrl	
+2	pydantic.networks.ClickHouseDsn	heading	api/pydantic/networks/	pydantic.networks.ClickHouseDsn	Network Types>ClickHouseDsn	
+2	pydantic.networks.CockroachDsn	heading	api/pydantic/networks/	pydantic.networks.CockroachDsn	Network Types>CockroachDsn	
+2	pydantic.networks.CockroachDsn.host	heading	api/pydantic/networks/	pydantic.networks.CockroachDsn.host	CockroachDsn>Attributes>host#2	
+2	pydantic.networks.EmailStr	heading	api/pydantic/networks/	pydantic.networks.EmailStr	Network Types>EmailStr	
+2	pydantic.networks.FileUrl	heading	api/pydantic/networks/	pydantic.networks.FileUrl	Network Types>FileUrl	
+2	pydantic.networks.FtpUrl	heading	api/pydantic/networks/	pydantic.networks.FtpUrl	Network Types>FtpUrl	
+2	pydantic.networks.HttpUrl	heading	api/pydantic/networks/	pydantic.networks.HttpUrl	Network Types>HttpUrl	
+2	pydantic.networks.IPvAnyAddress	heading	api/pydantic/networks/	pydantic.networks.IPvAnyAddress	Network Types>IPvAnyAddress	
+2	pydantic.networks.IPvAnyInterface	heading	api/pydantic/networks/	pydantic.networks.IPvAnyInterface	Network Types>IPvAnyInterface	
+2	pydantic.networks.IPvAnyNetwork	heading	api/pydantic/networks/	pydantic.networks.IPvAnyNetwork	Network Types>IPvAnyNetwork	
+2	pydantic.networks.KafkaDsn	heading	api/pydantic/networks/	pydantic.networks.KafkaDsn	Network Types>KafkaDsn	
+2	pydantic.networks.MAX_EMAIL_LENGTH	heading	api/pydantic/networks/	pydantic.networks.MAX_EMAIL_LENGTH	Network Types>MAX_EMAIL_LENGTH	
+2	pydantic.networks.MariaDBDsn	heading	api/pydantic/networks/	pydantic.networks.MariaDBDsn	Network Types>MariaDBDsn	
+2	pydantic.networks.MongoDsn	heading	api/pydantic/networks/	pydantic.networks.MongoDsn	Network Types>MongoDsn	
+2	pydantic.networks.MySQLDsn	heading	api/pydantic/networks/	pydantic.networks.MySQLDsn	Network Types>MySQLDsn	
+2	pydantic.networks.NameEmail	heading	api/pydantic/networks/	pydantic.networks.NameEmail	Network Types>NameEmail	
+2	pydantic.networks.NatsDsn	heading	api/pydantic/networks/	pydantic.networks.NatsDsn	Network Types>NatsDsn	
+2	pydantic.networks.PostgresDsn	heading	api/pydantic/networks/	pydantic.networks.PostgresDsn	Network Types>PostgresDsn	
+2	pydantic.networks.PostgresDsn.host	heading	api/pydantic/networks/	pydantic.networks.PostgresDsn.host	PostgresDsn>Attributes>host	
+2	pydantic.networks.RedisDsn	heading	api/pydantic/networks/	pydantic.networks.RedisDsn	Network Types>RedisDsn	
+2	pydantic.networks.RedisDsn.host	heading	api/pydantic/networks/	pydantic.networks.RedisDsn.host	RedisDsn>Attributes>host#3	
+2	pydantic.networks.SnowflakeDsn	heading	api/pydantic/networks/	pydantic.networks.SnowflakeDsn	Network Types>SnowflakeDsn	
+2	pydantic.networks.SnowflakeDsn.host	heading	api/pydantic/networks/	pydantic.networks.SnowflakeDsn.host	SnowflakeDsn>Attributes>host#4	
+2	pydantic.networks.UrlConstraints	heading	api/pydantic/networks/	pydantic.networks.UrlConstraints	Network Types>UrlConstraints	
+2	pydantic.networks.UrlConstraints.defined_constraints	heading	api/pydantic/networks/	pydantic.networks.UrlConstraints.defined_constraints	UrlConstraints>Attributes>defined_constraints	
+2	pydantic.networks.WebsocketUrl	heading	api/pydantic/networks/	pydantic.networks.WebsocketUrl	Network Types>WebsocketUrl	
+2	pydantic.networks.validate_email	heading	api/pydantic/networks/	pydantic.networks.validate_email	Network Types>validate_email	
+2	pydantic.root_model.RootModel	heading	api/pydantic/root_model/	pydantic.root_model.RootModel	RootModel>RootModel#2	
+2	pydantic.root_model.RootModel.model_construct	heading	api/pydantic/root_model/	pydantic.root_model.RootModel.model_construct	RootModel>Methods>model_construct	root
+2	pydantic.root_model.RootModel.model_dump	heading	api/pydantic/root_model/	pydantic.root_model.RootModel.model_dump	RootModel>Methods>model_dump	mode,to_python,include,exclude,context,by_alias,exclude_unset,exclude_defaults,exclude_none,exclude_computed_fields,round_trip,warnings
+2	pydantic.type_adapter.TypeAdapter	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter	TypeAdapter>TypeAdapter#2	
+2	pydantic.type_adapter.TypeAdapter.dump_json	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.dump_json	TypeAdapter>Methods>dump_json	instance,indent,ensure_ascii,include,exclude,by_alias,exclude_unset,exclude_defaults,exclude_none,exclude_computed_fields,round_trip,warnings
+2	pydantic.type_adapter.TypeAdapter.dump_python	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.dump_python	TypeAdapter>Methods>dump_python	instance,mode,include,exclude,by_alias,exclude_unset,exclude_defaults,exclude_none,exclude_computed_fields,round_trip,warnings,fallback
+2	pydantic.type_adapter.TypeAdapter.get_default_value	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.get_default_value	TypeAdapter>Methods>get_default_value	strict,context
+2	pydantic.type_adapter.TypeAdapter.json_schema	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.json_schema	TypeAdapter>Methods>json_schema	by_alias,validate_by_alias,ref_template,union_format,anyOf,integer,any_of,schema_generator,mode
+2	pydantic.type_adapter.TypeAdapter.json_schemas	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.json_schemas	TypeAdapter>Methods>json_schemas	inputs,by_alias,validate_by_alias,title,description,ref_template,union_format,anyOf,integer,any_of,schema_generator
+2	pydantic.type_adapter.TypeAdapter.rebuild	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.rebuild	TypeAdapter>Methods>rebuild	force,raise_errors
+2	pydantic.type_adapter.TypeAdapter.validate_json	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.validate_json	TypeAdapter>Methods>validate_json	bytearray,strict,extra,context,experimental_allow_partial,by_alias,by_name
+2	pydantic.type_adapter.TypeAdapter.validate_python	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.validate_python	TypeAdapter>Methods>validate_python	strict,extra,from_attributes,context,experimental_allow_partial,by_alias,by_name
+2	pydantic.type_adapter.TypeAdapter.validate_strings	heading	api/pydantic/type_adapter/	pydantic.type_adapter.TypeAdapter.validate_strings	TypeAdapter>Methods>validate_strings	obj,strict,extra,context,experimental_allow_partial,by_alias,by_name
+2	pydantic.types.AllowInfNan	heading	api/pydantic/types/	pydantic.types.AllowInfNan	Pydantic Types>AllowInfNan	
+2	pydantic.types.AwareDatetime	heading	api/pydantic/types/	pydantic.types.AwareDatetime	Pydantic Types>AwareDatetime	
+2	pydantic.types.Base64Bytes	heading	api/pydantic/types/	pydantic.types.Base64Bytes	Pydantic Types>Base64Bytes	base64.b64encode,base64.b64decode,base64.encodebytes,base64.decodebytes
+2	pydantic.types.Base64Encoder	heading	api/pydantic/types/	pydantic.types.Base64Encoder	Pydantic Types>Base64Encoder	
+2	pydantic.types.Base64Encoder.decode	heading	api/pydantic/types/	pydantic.types.Base64Encoder.decode	Base64Encoder>Methods>decode#2	
+2	pydantic.types.Base64Encoder.encode	heading	api/pydantic/types/	pydantic.types.Base64Encoder.encode	Base64Encoder>Methods>encode#2	
+2	pydantic.types.Base64Encoder.get_json_format	heading	api/pydantic/types/	pydantic.types.Base64Encoder.get_json_format	Base64Encoder>Methods>get_json_format#2	
+2	pydantic.types.Base64Str	heading	api/pydantic/types/	pydantic.types.Base64Str	Pydantic Types>Base64Str	base64.b64encode,base64.b64decode,base64.encodebytes,base64.decodebytes
+2	pydantic.types.Base64UrlBytes	heading	api/pydantic/types/	pydantic.types.Base64UrlBytes	Pydantic Types>Base64UrlBytes	
+2	pydantic.types.Base64UrlEncoder	heading	api/pydantic/types/	pydantic.types.Base64UrlEncoder	Pydantic Types>Base64UrlEncoder	
+2	pydantic.types.Base64UrlEncoder.decode	heading	api/pydantic/types/	pydantic.types.Base64UrlEncoder.decode	Base64UrlEncoder>Methods>decode#3	
+2	pydantic.types.Base64UrlEncoder.encode	heading	api/pydantic/types/	pydantic.types.Base64UrlEncoder.encode	Base64UrlEncoder>Methods>encode#3	
+2	pydantic.types.Base64UrlEncoder.get_json_format	heading	api/pydantic/types/	pydantic.types.Base64UrlEncoder.get_json_format	Base64UrlEncoder>Methods>get_json_format#3	
+2	pydantic.types.Base64UrlStr	heading	api/pydantic/types/	pydantic.types.Base64UrlStr	Pydantic Types>Base64UrlStr	
+2	pydantic.types.ByteSize	heading	api/pydantic/types/	pydantic.types.ByteSize	Pydantic Types>ByteSize	
+2	pydantic.types.ByteSize.human_readable	heading	api/pydantic/types/	pydantic.types.ByteSize.human_readable	ByteSize>Methods>human_readable	decimal,separator
+2	pydantic.types.ByteSize.to	heading	api/pydantic/types/	pydantic.types.ByteSize.to	ByteSize>Methods>to	unit
+2	pydantic.types.DirectoryPath	heading	api/pydantic/types/	pydantic.types.DirectoryPath	Pydantic Types>DirectoryPath	
+2	pydantic.types.Discriminator	heading	api/pydantic/types/	pydantic.types.Discriminator	Pydantic Types>Discriminator	
+2	pydantic.types.Discriminator.custom_error_context	heading	api/pydantic/types/	pydantic.types.Discriminator.custom_error_context	Discriminator>Attributes>custom_error_context	
+2	pydantic.types.Discriminator.custom_error_message	heading	api/pydantic/types/	pydantic.types.Discriminator.custom_error_message	Discriminator>Attributes>custom_error_message	
+2	pydantic.types.Discriminator.custom_error_type	heading	api/pydantic/types/	pydantic.types.Discriminator.custom_error_type	Discriminator>Attributes>custom_error_type	
+2	pydantic.types.Discriminator.discriminator	heading	api/pydantic/types/	pydantic.types.Discriminator.discriminator	Discriminator>Attributes>discriminator	
+2	pydantic.types.EncodedBytes	heading	api/pydantic/types/	pydantic.types.EncodedBytes	Pydantic Types>EncodedBytes	
+2	pydantic.types.EncodedBytes.decode	heading	api/pydantic/types/	pydantic.types.EncodedBytes.decode	EncodedBytes>Methods>decode#4	
+2	pydantic.types.EncodedBytes.encode	heading	api/pydantic/types/	pydantic.types.EncodedBytes.encode	EncodedBytes>Methods>encode#4	
+2	pydantic.types.EncodedStr	heading	api/pydantic/types/	pydantic.types.EncodedStr	Pydantic Types>EncodedStr	
+2	pydantic.types.EncodedStr.decode_str	heading	api/pydantic/types/	pydantic.types.EncodedStr.decode_str	EncodedStr>Methods>decode_str	
+2	pydantic.types.EncodedStr.encode_str	heading	api/pydantic/types/	pydantic.types.EncodedStr.encode_str	EncodedStr>Methods>encode_str	
+2	pydantic.types.EncoderProtocol	heading	api/pydantic/types/	pydantic.types.EncoderProtocol	Pydantic Types>EncoderProtocol	
+2	pydantic.types.EncoderProtocol.decode	heading	api/pydantic/types/	pydantic.types.EncoderProtocol.decode	EncoderProtocol>Methods>decode	
+2	pydantic.types.EncoderProtocol.encode	heading	api/pydantic/types/	pydantic.types.EncoderProtocol.encode	EncoderProtocol>Methods>encode	
+2	pydantic.types.EncoderProtocol.get_json_format	heading	api/pydantic/types/	pydantic.types.EncoderProtocol.get_json_format	EncoderProtocol>Methods>get_json_format	
+2	pydantic.types.FailFast	heading	api/pydantic/types/	pydantic.types.FailFast	Pydantic Types>FailFast	
+2	pydantic.types.FilePath	heading	api/pydantic/types/	pydantic.types.FilePath	Pydantic Types>FilePath	
+2	pydantic.types.FiniteFloat	heading	api/pydantic/types/	pydantic.types.FiniteFloat	Pydantic Types>FiniteFloat	inf
+2	pydantic.types.FutureDate	heading	api/pydantic/types/	pydantic.types.FutureDate	Pydantic Types>FutureDate	
+2	pydantic.types.FutureDatetime	heading	api/pydantic/types/	pydantic.types.FutureDatetime	Pydantic Types>FutureDatetime	
+2	pydantic.types.GetPydanticSchema	heading	api/pydantic/types/	pydantic.types.GetPydanticSchema	Pydantic Types>GetPydanticSchema	
+2	pydantic.types.ImportString	heading	api/pydantic/types/	pydantic.types.ImportString	Pydantic Types>ImportString	
+2	pydantic.types.Json	heading	api/pydantic/types/	pydantic.types.Json	Pydantic Types>Json	
+2	pydantic.types.JsonValue	heading	api/pydantic/types/	pydantic.types.JsonValue	Pydantic Types>JsonValue	
+2	pydantic.types.NaiveDatetime	heading	api/pydantic/types/	pydantic.types.NaiveDatetime	Pydantic Types>NaiveDatetime	
+2	pydantic.types.NegativeFloat	heading	api/pydantic/types/	pydantic.types.NegativeFloat	Pydantic Types>NegativeFloat	
+2	pydantic.types.NegativeInt	heading	api/pydantic/types/	pydantic.types.NegativeInt	Pydantic Types>NegativeInt	
+2	pydantic.types.NewPath	heading	api/pydantic/types/	pydantic.types.NewPath	Pydantic Types>NewPath	
+2	pydantic.types.NonNegativeFloat	heading	api/pydantic/types/	pydantic.types.NonNegativeFloat	Pydantic Types>NonNegativeFloat	
+2	pydantic.types.NonNegativeInt	heading	api/pydantic/types/	pydantic.types.NonNegativeInt	Pydantic Types>NonNegativeInt	
+2	pydantic.types.NonPositiveFloat	heading	api/pydantic/types/	pydantic.types.NonPositiveFloat	Pydantic Types>NonPositiveFloat	
+2	pydantic.types.NonPositiveInt	heading	api/pydantic/types/	pydantic.types.NonPositiveInt	Pydantic Types>NonPositiveInt	
+2	pydantic.types.OnErrorOmit	heading	api/pydantic/types/	pydantic.types.OnErrorOmit	Pydantic Types>OnErrorOmit	
+2	pydantic.types.PastDate	heading	api/pydantic/types/	pydantic.types.PastDate	Pydantic Types>PastDate	
+2	pydantic.types.PastDatetime	heading	api/pydantic/types/	pydantic.types.PastDatetime	Pydantic Types>PastDatetime	
+2	pydantic.types.PaymentCardNumber	heading	api/pydantic/types/	pydantic.types.PaymentCardNumber	Pydantic Types>PaymentCardNumber	
+2	pydantic.types.PaymentCardNumber.masked	heading	api/pydantic/types/	pydantic.types.PaymentCardNumber.masked	PaymentCardNumber>Attributes>masked	
+2	pydantic.types.PaymentCardNumber.validate	heading	api/pydantic/types/	pydantic.types.PaymentCardNumber.validate	PaymentCardNumber>Methods>validate	
+2	pydantic.types.PaymentCardNumber.validate_brand	heading	api/pydantic/types/	pydantic.types.PaymentCardNumber.validate_brand	PaymentCardNumber>Methods>validate_brand	
+2	pydantic.types.PaymentCardNumber.validate_digits	heading	api/pydantic/types/	pydantic.types.PaymentCardNumber.validate_digits	PaymentCardNumber>Methods>validate_digits	
+2	pydantic.types.PaymentCardNumber.validate_luhn_check_digit	heading	api/pydantic/types/	pydantic.types.PaymentCardNumber.validate_luhn_check_digit	PaymentCardNumber>Methods>validate_luhn_check_digit	
+2	pydantic.types.PositiveFloat	heading	api/pydantic/types/	pydantic.types.PositiveFloat	Pydantic Types>PositiveFloat	
+2	pydantic.types.PositiveInt	heading	api/pydantic/types/	pydantic.types.PositiveInt	Pydantic Types>PositiveInt	
+2	pydantic.types.Secret	heading	api/pydantic/types/	pydantic.types.Secret	Pydantic Types>Secret	
+2	pydantic.types.SecretBytes	heading	api/pydantic/types/	pydantic.types.SecretBytes	Pydantic Types>SecretBytes	
+2	pydantic.types.SecretStr	heading	api/pydantic/types/	pydantic.types.SecretStr	Pydantic Types>SecretStr	
+2	pydantic.types.SocketPath	heading	api/pydantic/types/	pydantic.types.SocketPath	Pydantic Types>SocketPath	
+2	pydantic.types.Strict	heading	api/pydantic/types/	pydantic.types.Strict	Pydantic Types>Strict	
+2	pydantic.types.StrictBool	heading	api/pydantic/types/	pydantic.types.StrictBool	Pydantic Types>StrictBool	
+2	pydantic.types.StrictBytes	heading	api/pydantic/types/	pydantic.types.StrictBytes	Pydantic Types>StrictBytes	
+2	pydantic.types.StrictFloat	heading	api/pydantic/types/	pydantic.types.StrictFloat	Pydantic Types>StrictFloat	
+2	pydantic.types.StrictInt	heading	api/pydantic/types/	pydantic.types.StrictInt	Pydantic Types>StrictInt	
+2	pydantic.types.StrictStr	heading	api/pydantic/types/	pydantic.types.StrictStr	Pydantic Types>StrictStr	
+2	pydantic.types.StringConstraints	heading	api/pydantic/types/	pydantic.types.StringConstraints	Pydantic Types>StringConstraints	
+2	pydantic.types.Tag	heading	api/pydantic/types/	pydantic.types.Tag	Pydantic Types>Tag	
+2	pydantic.types.UUID1	heading	api/pydantic/types/	pydantic.types.UUID1	Pydantic Types>UUID1	
+2	pydantic.types.UUID3	heading	api/pydantic/types/	pydantic.types.UUID3	Pydantic Types>UUID3	
+2	pydantic.types.UUID4	heading	api/pydantic/types/	pydantic.types.UUID4	Pydantic Types>UUID4	
+2	pydantic.types.UUID5	heading	api/pydantic/types/	pydantic.types.UUID5	Pydantic Types>UUID5	
+2	pydantic.types.UUID6	heading	api/pydantic/types/	pydantic.types.UUID6	Pydantic Types>UUID6	
+2	pydantic.types.UUID7	heading	api/pydantic/types/	pydantic.types.UUID7	Pydantic Types>UUID7	
+2	pydantic.types.UUID8	heading	api/pydantic/types/	pydantic.types.UUID8	Pydantic Types>UUID8	
+2	pydantic.types.UuidVersion	heading	api/pydantic/types/	pydantic.types.UuidVersion	Pydantic Types>UuidVersion	
+2	pydantic.types.conbytes	heading	api/pydantic/types/	pydantic.types.conbytes	Pydantic Types>conbytes	min_length,max_length,strict
+2	pydantic.types.condate	heading	api/pydantic/types/	pydantic.types.condate	Pydantic Types>condate	strict,gt,ge,lt,le
+2	pydantic.types.condecimal	heading	api/pydantic/types/	pydantic.types.condecimal	Pydantic Types>condecimal	strict,gt,ge,lt,le,multiple_of,max_digits,decimal_places,allow_inf_nan
+2	pydantic.types.confloat	heading	api/pydantic/types/	pydantic.types.confloat	Pydantic Types>confloat	strict,gt,ge,lt,le,multiple_of,allow_inf_nan,inf
+2	pydantic.types.confrozenset	heading	api/pydantic/types/	pydantic.types.confrozenset	Pydantic Types>confrozenset	typing.FrozenSet,frozenset,item_type,min_length,max_length
+2	pydantic.types.conint	heading	api/pydantic/types/	pydantic.types.conint	Pydantic Types>conint	strict,gt,ge,lt,le,multiple_of
+2	pydantic.types.conlist	heading	api/pydantic/types/	pydantic.types.conlist	Pydantic Types>conlist	item_type,min_length,max_length,unique_items
+2	pydantic.types.conset	heading	api/pydantic/types/	pydantic.types.conset	Pydantic Types>conset	typing.Set,item_type,min_length,max_length
+2	pydantic.types.constr	heading	api/pydantic/types/	pydantic.types.constr	Pydantic Types>constr	strip_whitespace,to_upper,to_lower,strict,min_length,max_length,pattern,ascii_only
+2	pydantic.validate_call_decorator.validate_call	heading	api/pydantic/validate_call/	pydantic.validate_call_decorator.validate_call	Validate Call>validate_call	func,config,validate_return
+2	pydantic.version.version_info	heading	api/pydantic/version/	pydantic.version.version_info	Version Information>version_info	
+2	pydantic_core.ArgsKwargs	heading	api/pydantic-core/pydantic_core/	pydantic_core.ArgsKwargs	pydantic_core>ArgsKwargs	
+2	pydantic_core.ArgsKwargs.args	heading	api/pydantic-core/pydantic_core/	pydantic_core.ArgsKwargs.args	ArgsKwargs>Attributes>args	
+2	pydantic_core.ArgsKwargs.kwargs	heading	api/pydantic-core/pydantic_core/	pydantic_core.ArgsKwargs.kwargs	ArgsKwargs>Attributes>kwargs	
+2	pydantic_core.ErrorDetails	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorDetails	pydantic_core>ErrorDetails	
+2	pydantic_core.ErrorDetails.ctx	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorDetails.ctx	ErrorDetails>Attributes>ctx	
+2	pydantic_core.ErrorDetails.input	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorDetails.input	ErrorDetails>Attributes>input	loc
+2	pydantic_core.ErrorDetails.loc	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorDetails.loc	ErrorDetails>Attributes>loc	
+2	pydantic_core.ErrorDetails.msg	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorDetails.msg	ErrorDetails>Attributes>msg	
+2	pydantic_core.ErrorDetails.type	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorDetails.type	ErrorDetails>Attributes>type	
+2	pydantic_core.ErrorDetails.url	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorDetails.url	ErrorDetails>Attributes>url	
+2	pydantic_core.ErrorTypeInfo	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorTypeInfo	pydantic_core>ErrorTypeInfo	
+2	pydantic_core.ErrorTypeInfo.example_context	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorTypeInfo.example_context	ErrorTypeInfo>Attributes>example_context	
+2	pydantic_core.ErrorTypeInfo.example_message_json	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorTypeInfo.example_message_json	ErrorTypeInfo>Attributes>example_message_json	
+2	pydantic_core.ErrorTypeInfo.example_message_python	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorTypeInfo.example_message_python	ErrorTypeInfo>Attributes>example_message_python	
+2	pydantic_core.ErrorTypeInfo.message_template_json	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorTypeInfo.message_template_json	ErrorTypeInfo>Attributes>message_template_json	
+2	pydantic_core.ErrorTypeInfo.message_template_python	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorTypeInfo.message_template_python	ErrorTypeInfo>Attributes>message_template_python	
+2	pydantic_core.ErrorTypeInfo.type	heading	api/pydantic-core/pydantic_core/	pydantic_core.ErrorTypeInfo.type	ErrorTypeInfo>Attributes>type#5	
+2	pydantic_core.InitErrorDetails	heading	api/pydantic-core/pydantic_core/	pydantic_core.InitErrorDetails	pydantic_core>InitErrorDetails	
+2	pydantic_core.InitErrorDetails.ctx	heading	api/pydantic-core/pydantic_core/	pydantic_core.InitErrorDetails.ctx	InitErrorDetails>Attributes>ctx#2	
+2	pydantic_core.InitErrorDetails.input	heading	api/pydantic-core/pydantic_core/	pydantic_core.InitErrorDetails.input	InitErrorDetails>Attributes>input#2	loc
+2	pydantic_core.InitErrorDetails.loc	heading	api/pydantic-core/pydantic_core/	pydantic_core.InitErrorDetails.loc	InitErrorDetails>Attributes>loc#2	
+2	pydantic_core.InitErrorDetails.type	heading	api/pydantic-core/pydantic_core/	pydantic_core.InitErrorDetails.type	InitErrorDetails>Attributes>type#2	
+2	pydantic_core.MultiHostHost	heading	api/pydantic-core/pydantic_core/	pydantic_core.MultiHostHost	pydantic_core>MultiHostHost	
+2	pydantic_core.MultiHostHost.host	heading	api/pydantic-core/pydantic_core/	pydantic_core.MultiHostHost.host	MultiHostHost>Attributes>host	
+2	pydantic_core.MultiHostHost.password	heading	api/pydantic-core/pydantic_core/	pydantic_core.MultiHostHost.password	MultiHostHost>Attributes>password	
+2	pydantic_core.MultiHostHost.port	heading	api/pydantic-core/pydantic_core/	pydantic_core.MultiHostHost.port	MultiHostHost>Attributes>port	
+2	pydantic_core.MultiHostHost.username	heading	api/pydantic-core/pydantic_core/	pydantic_core.MultiHostHost.username	MultiHostHost>Attributes>username	
+2	pydantic_core.MultiHostUrl	heading	api/pydantic-core/pydantic_core/	pydantic_core.MultiHostUrl	pydantic_core>MultiHostUrl	
+2	pydantic_core.PydanticCustomError	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticCustomError	pydantic_core>PydanticCustomError	
+2	pydantic_core.PydanticCustomError.context	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticCustomError.context	PydanticCustomError>Attributes>context	
+2	pydantic_core.PydanticCustomError.message	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticCustomError.message	PydanticCustomError>Methods>message	
+2	pydantic_core.PydanticCustomError.message_template	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticCustomError.message_template	PydanticCustomError>Attributes>message_template	
+2	pydantic_core.PydanticCustomError.type	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticCustomError.type	PydanticCustomError>Attributes>type#3	
+2	pydantic_core.PydanticKnownError	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticKnownError	pydantic_core>PydanticKnownError	
+2	pydantic_core.PydanticKnownError.context	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticKnownError.context	PydanticKnownError>Attributes>context#2	
+2	pydantic_core.PydanticKnownError.message	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticKnownError.message	PydanticKnownError>Methods>message#2	
+2	pydantic_core.PydanticKnownError.message_template	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticKnownError.message_template	PydanticKnownError>Attributes>message_template#2	
+2	pydantic_core.PydanticKnownError.type	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticKnownError.type	PydanticKnownError>Attributes>type#4	
+2	pydantic_core.PydanticOmit	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticOmit	pydantic_core>PydanticOmit	
+2	pydantic_core.PydanticSerializationError	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticSerializationError	pydantic_core>PydanticSerializationError	
+2	pydantic_core.PydanticSerializationUnexpectedValue	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticSerializationUnexpectedValue	pydantic_core>PydanticSerializationUnexpectedValue	
+2	pydantic_core.PydanticUseDefault	heading	api/pydantic-core/pydantic_core/	pydantic_core.PydanticUseDefault	pydantic_core>PydanticUseDefault	
+2	pydantic_core.SchemaError	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaError	pydantic_core>SchemaError	
+2	pydantic_core.SchemaError.error_count	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaError.error_count	SchemaError>Methods>error_count#2	
+2	pydantic_core.SchemaError.errors	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaError.errors	SchemaError>Methods>errors#2	
+2	pydantic_core.SchemaSerializer	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaSerializer	pydantic_core>SchemaSerializer	
+2	pydantic_core.SchemaSerializer.to_json	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaSerializer.to_json	SchemaSerializer>Methods>to_json	indent,ensure_ascii,include,exclude,by_alias,exclude_unset,exclude_defaults,exclude_none,exclude_computed_fields,round_trip,warnings,fallback
+2	pydantic_core.SchemaSerializer.to_python	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaSerializer.to_python	SchemaSerializer>Methods>to_python	mode,include,exclude,by_alias,exclude_unset,exclude_defaults,exclude_none,exclude_computed_fields,round_trip,warnings,fallback,serialize_as_any
+2	pydantic_core.SchemaValidator	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator	pydantic_core>SchemaValidator	
+2	pydantic_core.SchemaValidator.get_default_value	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator.get_default_value	SchemaValidator>Methods>get_default_value	strict,context,info.context
+2	pydantic_core.SchemaValidator.isinstance_python	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator.isinstance_python	SchemaValidator>Methods>isinstance_python	validate_python
+2	pydantic_core.SchemaValidator.title	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator.title	SchemaValidator>Attributes>title	
+2	pydantic_core.SchemaValidator.validate_assignment	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator.validate_assignment	SchemaValidator>Methods>validate_assignment	obj,field_name,field_value,strict,extra,from_attributes,context,info.context,by_alias,by_name
+2	pydantic_core.SchemaValidator.validate_json	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator.validate_json	SchemaValidator>Methods>validate_json	input,bytearray,strict,extra,context,info.context,self_instance,allow_partial,by_alias,by_name
+2	pydantic_core.SchemaValidator.validate_python	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator.validate_python	SchemaValidator>Methods>validate_python	input,strict,extra,from_attributes,context,info.context,self_instance,allow_partial,by_alias,by_name
+2	pydantic_core.SchemaValidator.validate_strings	heading	api/pydantic-core/pydantic_core/	pydantic_core.SchemaValidator.validate_strings	SchemaValidator>Methods>validate_strings	validate_json,input,strict,extra,context,info.context,allow_partial,by_alias,by_name
+2	pydantic_core.Some	heading	api/pydantic-core/pydantic_core/	pydantic_core.Some	pydantic_core>Some	
+2	pydantic_core.Some.value	heading	api/pydantic-core/pydantic_core/	pydantic_core.Some.value	Some>Attributes>value	
+2	pydantic_core.TzInfo	heading	api/pydantic-core/pydantic_core/	pydantic_core.TzInfo	pydantic_core>TzInfo	
+2	pydantic_core.TzInfo.dst	heading	api/pydantic-core/pydantic_core/	pydantic_core.TzInfo.dst	TzInfo>Methods>dst	timedelta,tzinfo.dst,datetime.timedelta
+2	pydantic_core.TzInfo.fromutc	heading	api/pydantic-core/pydantic_core/	pydantic_core.TzInfo.fromutc	TzInfo>Methods>fromutc	tzinfo.fromutc,datetime.datetime
+2	pydantic_core.TzInfo.tzname	heading	api/pydantic-core/pydantic_core/	pydantic_core.TzInfo.tzname	TzInfo>Methods>tzname	datetime,tzinfo.tzname
+2	pydantic_core.TzInfo.utcoffset	heading	api/pydantic-core/pydantic_core/	pydantic_core.TzInfo.utcoffset	TzInfo>Methods>utcoffset	timedelta,tzinfo.utcoffset,datetime.timedelta
+2	pydantic_core.Url	heading	api/pydantic-core/pydantic_core/	pydantic_core.Url	pydantic_core>Url	
+2	pydantic_core.ValidationError	heading	api/pydantic-core/pydantic_core/	pydantic_core.ValidationError	pydantic_core>ValidationError	
+2	pydantic_core.ValidationError.error_count	heading	api/pydantic-core/pydantic_core/	pydantic_core.ValidationError.error_count	ValidationError>Methods>error_count	
+2	pydantic_core.ValidationError.errors	heading	api/pydantic-core/pydantic_core/	pydantic_core.ValidationError.errors	ValidationError>Methods>errors	include_url,include_context,include_input
+2	pydantic_core.ValidationError.from_exception_data	heading	api/pydantic-core/pydantic_core/	pydantic_core.ValidationError.from_exception_data	ValidationError>Methods>from_exception_data	title,line_errors,input_type,hide_input
+2	pydantic_core.ValidationError.json	heading	api/pydantic-core/pydantic_core/	pydantic_core.ValidationError.json	ValidationError>Methods>json	errors,indent,include_url,include_context,include_input
+2	pydantic_core.ValidationError.title	heading	api/pydantic-core/pydantic_core/	pydantic_core.ValidationError.title	ValidationError>Attributes>title#2	
+2	pydantic_core.__version__	heading	api/pydantic-core/pydantic_core/	pydantic_core.__version__	pydantic_core>__version__	
+2	pydantic_core.core_schema.CoreConfig	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.CoreConfig	pydantic_core.core_schema>CoreConfig	
+2	pydantic_core.core_schema.FieldSerializationInfo	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.FieldSerializationInfo	pydantic_core.core_schema>FieldSerializationInfo	
+2	pydantic_core.core_schema.FieldSerializationInfo.field_name	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.FieldSerializationInfo.field_name	FieldSerializationInfo>Attributes>field_name	
+2	pydantic_core.core_schema.SerSchema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerSchema	pydantic_core.core_schema>SerSchema	serialization
+2	pydantic_core.core_schema.SerializationInfo	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo	pydantic_core.core_schema>SerializationInfo	
+2	pydantic_core.core_schema.SerializationInfo.by_alias	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.by_alias	SerializationInfo>Attributes>by_alias	
+2	pydantic_core.core_schema.SerializationInfo.context	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.context	SerializationInfo>Attributes>context	
+2	pydantic_core.core_schema.SerializationInfo.exclude	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.exclude	SerializationInfo>Attributes>exclude	
+2	pydantic_core.core_schema.SerializationInfo.exclude_computed_fields	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.exclude_computed_fields	SerializationInfo>Attributes>exclude_computed_fields	
+2	pydantic_core.core_schema.SerializationInfo.exclude_defaults	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.exclude_defaults	SerializationInfo>Attributes>exclude_defaults	
+2	pydantic_core.core_schema.SerializationInfo.exclude_none	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.exclude_none	SerializationInfo>Attributes>exclude_none	
+2	pydantic_core.core_schema.SerializationInfo.exclude_unset	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.exclude_unset	SerializationInfo>Attributes>exclude_unset	
+2	pydantic_core.core_schema.SerializationInfo.include	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.include	SerializationInfo>Attributes>include	
+2	pydantic_core.core_schema.SerializationInfo.mode	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.mode	SerializationInfo>Attributes>mode	
+2	pydantic_core.core_schema.SerializationInfo.polymorphic_serialization	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.polymorphic_serialization	SerializationInfo>Attributes>polymorphic_serialization#2	
+2	pydantic_core.core_schema.SerializationInfo.round_trip	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.round_trip	SerializationInfo>Attributes>round_trip	
+2	pydantic_core.core_schema.SerializationInfo.serialize_as_any	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.SerializationInfo.serialize_as_any	SerializationInfo>Attributes>serialize_as_any	
+2	pydantic_core.core_schema.ValidationInfo	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ValidationInfo	pydantic_core.core_schema>ValidationInfo	
+2	pydantic_core.core_schema.ValidationInfo.config	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ValidationInfo.config	ValidationInfo>Attributes>config	
+2	pydantic_core.core_schema.ValidationInfo.context	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ValidationInfo.context	ValidationInfo>Attributes>context#2	
+2	pydantic_core.core_schema.ValidationInfo.data	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ValidationInfo.data	ValidationInfo>Attributes>data	
+2	pydantic_core.core_schema.ValidationInfo.field_name	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ValidationInfo.field_name	ValidationInfo>Attributes>field_name#2	
+2	pydantic_core.core_schema.ValidationInfo.mode	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ValidationInfo.mode	ValidationInfo>Attributes>mode#2	
+2	pydantic_core.core_schema.WhenUsed	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.WhenUsed	pydantic_core.core_schema>WhenUsed	
+2	pydantic_core.core_schema.any_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.any_schema	pydantic_core.core_schema>any_schema	ref,metadata,serialization
+2	pydantic_core.core_schema.arguments_parameter	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.arguments_parameter	pydantic_core.core_schema>arguments_parameter	schema,mode,alias
+2	pydantic_core.core_schema.arguments_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.arguments_schema	pydantic_core.core_schema>arguments_schema	arguments,validate_by_name,validate_by_alias,var_args_schema,var_kwargs_mode,var_kwargs_schema,typed_dict_schema,ref,metadata,serialization
+2	pydantic_core.core_schema.arguments_v3_parameter	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.arguments_v3_parameter	pydantic_core.core_schema>arguments_v3_parameter	schema,mode,alias
+2	pydantic_core.core_schema.arguments_v3_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.arguments_v3_schema	pydantic_core.core_schema>arguments_v3_schema	arguments,validate_by_name,validate_by_alias,extra_behavior,ref,metadata,serialization
+2	pydantic_core.core_schema.bool_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.bool_schema	pydantic_core.core_schema>bool_schema	strict,ref,metadata,serialization
+2	pydantic_core.core_schema.bytes_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.bytes_schema	pydantic_core.core_schema>bytes_schema	max_length,min_length,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.call_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.call_schema	pydantic_core.core_schema>call_schema	arguments,function_name,function.__name__,return_schema,ref,metadata,serialization
+2	pydantic_core.core_schema.callable_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.callable_schema	pydantic_core.core_schema>callable_schema	callable,ref,metadata,serialization
+2	pydantic_core.core_schema.chain_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.chain_schema	pydantic_core.core_schema>chain_schema	steps,ref,metadata,serialization
+2	pydantic_core.core_schema.complex_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.complex_schema	pydantic_core.core_schema>complex_schema	strict,ref,metadata,serialization
+2	pydantic_core.core_schema.computed_field	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.computed_field	pydantic_core.core_schema>computed_field	property_name,return_schema,alias,metadata
+2	pydantic_core.core_schema.counter_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.counter_schema	pydantic_core.core_schema>counter_schema	collections.Counter,keys_schema,values_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.custom_error_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.custom_error_schema	pydantic_core.core_schema>custom_error_schema	schema,custom_error_type,custom_error_message,custom_error_context,ref,metadata,serialization
+2	pydantic_core.core_schema.dataclass_args_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.dataclass_args_schema	pydantic_core.core_schema>dataclass_args_schema	dataclass_name,fields,computed_fields,collect_init_only,ref,metadata,serialization,extra_behavior
+2	pydantic_core.core_schema.dataclass_field	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.dataclass_field	pydantic_core.core_schema>dataclass_field	schema,kw_only,init,init_only,validation_alias,serialization_alias,serialization_exclude,serialization_exclude_if,metadata,frozen
+2	pydantic_core.core_schema.dataclass_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.dataclass_schema	pydantic_core.core_schema>dataclass_schema	schema,fields,generic_origin,cls_name,cls.__name__,post_init,revalidate_instances,strict,ref,metadata,serialization,frozen
+2	pydantic_core.core_schema.date_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.date_schema	pydantic_core.core_schema>date_schema	strict,le,ge,lt,gt,now_op,now_utc_offset,ref,metadata,serialization
+2	pydantic_core.core_schema.datetime_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.datetime_schema	pydantic_core.core_schema>datetime_schema	strict,le,datetime,ge,lt,gt,now_op,tz_constraint,now_utc_offset,microseconds_precision,ref,metadata
+2	pydantic_core.core_schema.decimal_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.decimal_schema	pydantic_core.core_schema>decimal_schema	allow_inf_nan,multiple_of,le,ge,lt,gt,max_digits,decimal_places,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.definition_reference_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.definition_reference_schema	pydantic_core.core_schema>definition_reference_schema	schema_ref,metadata,serialization
+2	pydantic_core.core_schema.definitions_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.definitions_schema	pydantic_core.core_schema>definitions_schema	schema,definitions
+2	pydantic_core.core_schema.deque_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.deque_schema	pydantic_core.core_schema>deque_schema	collections.deque,maxlen,items_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.dict_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.dict_schema	pydantic_core.core_schema>dict_schema	keys_schema,values_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.ellipsis_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ellipsis_schema	pydantic_core.core_schema>ellipsis_schema	
+2	pydantic_core.core_schema.enum_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.enum_schema	pydantic_core.core_schema>enum_schema	members,sub_type,missing,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.float_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.float_schema	pydantic_core.core_schema>float_schema	allow_inf_nan,multiple_of,le,ge,lt,gt,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.format_ser_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.format_ser_schema	pydantic_core.core_schema>format_ser_schema	format,formatting_string,when_used
+2	pydantic_core.core_schema.fraction_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.fraction_schema	pydantic_core.core_schema>fraction_schema	multiple_of,le,ge,lt,gt,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.frozendict_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.frozendict_schema	pydantic_core.core_schema>frozendict_schema	frozendict,keys_schema,values_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.frozenset_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.frozenset_schema	pydantic_core.core_schema>frozenset_schema	items_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.generator_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.generator_schema	pydantic_core.core_schema>generator_schema	items_schema,min_length,max_length,ref,metadata,serialization
+2	pydantic_core.core_schema.int_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.int_schema	pydantic_core.core_schema>int_schema	multiple_of,le,ge,lt,gt,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.invalid_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.invalid_schema	pydantic_core.core_schema>invalid_schema	ref,metadata
+2	pydantic_core.core_schema.is_instance_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.is_instance_schema	pydantic_core.core_schema>is_instance_schema	isinstance,cls_repr,ref,metadata,serialization
+2	pydantic_core.core_schema.is_subclass_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.is_subclass_schema	pydantic_core.core_schema>is_subclass_schema	issubclass,cls_repr,ref,metadata,serialization
+2	pydantic_core.core_schema.iter_union_choices	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.iter_union_choices	pydantic_core.core_schema>iter_union_choices	
+2	pydantic_core.core_schema.json_or_python_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.json_or_python_schema	pydantic_core.core_schema>json_or_python_schema	json_schema,python_schema,ref,metadata,serialization
+2	pydantic_core.core_schema.json_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.json_schema	pydantic_core.core_schema>json_schema	schema,ref,metadata,serialization
+2	pydantic_core.core_schema.lax_or_strict_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.lax_or_strict_schema	pydantic_core.core_schema>lax_or_strict_schema	lax_schema,strict_schema,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.list_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.list_schema	pydantic_core.core_schema>list_schema	items_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.literal_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.literal_schema	pydantic_core.core_schema>literal_schema	expected,ref,metadata,serialization
+2	pydantic_core.core_schema.missing_sentinel_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.missing_sentinel_schema	pydantic_core.core_schema>missing_sentinel_schema	schema,metadata,serialization
+2	pydantic_core.core_schema.model_field	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.model_field	pydantic_core.core_schema>model_field	schema,validation_alias,serialization_alias,serialization_exclude,serialization_exclude_if,frozen,metadata
+2	pydantic_core.core_schema.model_fields_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.model_fields_schema	pydantic_core.core_schema>model_fields_schema	fields,model_name,computed_fields,strict,extras_schema,extras_keys_schema,ref,metadata,extra_behavior,from_attributes,serialization
+2	pydantic_core.core_schema.model_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.model_schema	pydantic_core.core_schema>model_schema	schema,generic_origin,custom_init,root_model,post_init,revalidate_instances,strict,frozen,extra_behavior,config,ref
+2	pydantic_core.core_schema.model_ser_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.model_ser_schema	pydantic_core.core_schema>model_ser_schema	model_schema,schema
+2	pydantic_core.core_schema.multi_host_url_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.multi_host_url_schema	pydantic_core.core_schema>multi_host_url_schema	max_length,allowed_schemes,host_required,default_host,default_port,default_path,preserve_empty_path,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.named_tuple_field	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.named_tuple_field	pydantic_core.core_schema>named_tuple_field	schema,validation_alias,metadata
+2	pydantic_core.core_schema.named_tuple_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.named_tuple_schema	pydantic_core.core_schema>named_tuple_schema	fields,cls_name,cls.__name__,ref,metadata,serialization
+2	pydantic_core.core_schema.no_info_after_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.no_info_after_validator_function	pydantic_core.core_schema>no_info_after_validator_function	info,schema,ref,json_schema_input_schema,metadata,serialization
+2	pydantic_core.core_schema.no_info_before_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.no_info_before_validator_function	pydantic_core.core_schema>no_info_before_validator_function	info,schema,ref,json_schema_input_schema,metadata,serialization
+2	pydantic_core.core_schema.no_info_plain_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.no_info_plain_validator_function	pydantic_core.core_schema>no_info_plain_validator_function	info,ref,json_schema_input_schema,metadata,serialization
+2	pydantic_core.core_schema.no_info_wrap_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.no_info_wrap_validator_function	pydantic_core.core_schema>no_info_wrap_validator_function	validator,info,schema,ref,json_schema_input_schema,metadata,serialization
+2	pydantic_core.core_schema.none_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.none_schema	pydantic_core.core_schema>none_schema	ref,metadata,serialization
+2	pydantic_core.core_schema.nullable_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.nullable_schema	pydantic_core.core_schema>nullable_schema	schema,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.ordered_dict_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.ordered_dict_schema	pydantic_core.core_schema>ordered_dict_schema	collections.OrderedDict,keys_schema,values_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.plain_serializer_function_ser_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.plain_serializer_function_ser_schema	pydantic_core.core_schema>plain_serializer_function_ser_schema	is_field_serializer,model,info,field_name,info_arg,return_schema,when_used
+2	pydantic_core.core_schema.set_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.set_schema	pydantic_core.core_schema>set_schema	items_schema,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.simple_ser_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.simple_ser_schema	pydantic_core.core_schema>simple_ser_schema	int_schema
+2	pydantic_core.core_schema.str_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.str_schema	pydantic_core.core_schema>str_schema	pattern,max_length,min_length,strip_whitespace,to_lower,to_upper,ascii_only,regex_engine,regex,re,strict,coerce_numbers_to_str
+2	pydantic_core.core_schema.tagged_union_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.tagged_union_schema	pydantic_core.core_schema>tagged_union_schema	choices,discriminator,custom_error_type,custom_error_message,custom_error_context,strict,from_attributes,ref,metadata,serialization
+2	pydantic_core.core_schema.time_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.time_schema	pydantic_core.core_schema>time_schema	strict,le,time,ge,lt,gt,tz_constraint,microseconds_precision,ref,metadata,serialization
+2	pydantic_core.core_schema.timedelta_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.timedelta_schema	pydantic_core.core_schema>timedelta_schema	strict,multiple_of,timedelta,le,ge,lt,gt,microseconds_precision,ref,metadata,serialization
+2	pydantic_core.core_schema.to_string_ser_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.to_string_ser_schema	pydantic_core.core_schema>to_string_ser_schema	when_used
+2	pydantic_core.core_schema.tuple_positional_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.tuple_positional_schema	pydantic_core.core_schema>tuple_positional_schema	items_schema,extras_schema,prefixItems,items,typing.Tuple,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.tuple_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.tuple_schema	pydantic_core.core_schema>tuple_schema	items_schema,variadic_item_index,min_length,max_length,fail_fast,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.tuple_variable_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.tuple_variable_schema	pydantic_core.core_schema>tuple_variable_schema	items_schema,min_length,max_length,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.typed_dict_field	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.typed_dict_field	pydantic_core.core_schema>typed_dict_field	schema,required,total,validation_alias,serialization_alias,serialization_exclude,serialization_exclude_if,metadata
+2	pydantic_core.core_schema.typed_dict_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.typed_dict_schema	pydantic_core.core_schema>typed_dict_schema	fields,cls_name,cls.__name__,computed_fields,strict,extras_schema,ref,metadata,extra_behavior,total,typed_dict_total,serialization
+2	pydantic_core.core_schema.union_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.union_schema	pydantic_core.core_schema>union_schema	choices,auto_collapse,custom_error_type,custom_error_message,custom_error_context,mode,smart,left_to_right,ref,metadata,serialization
+2	pydantic_core.core_schema.url_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.url_schema	pydantic_core.core_schema>url_schema	max_length,allowed_schemes,host_required,default_host,default_port,default_path,preserve_empty_path,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.with_default_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.with_default_schema	pydantic_core.core_schema>with_default_schema	schema,default_factory,default_factory_takes_data,on_error,validate_default,strict,ref,metadata,serialization
+2	pydantic_core.core_schema.with_info_after_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.with_info_after_validator_function	pydantic_core.core_schema>with_info_after_validator_function	info,schema,field_name,ref,metadata,serialization
+2	pydantic_core.core_schema.with_info_before_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.with_info_before_validator_function	pydantic_core.core_schema>with_info_before_validator_function	info,field_name,schema,ref,json_schema_input_schema,metadata,serialization
+2	pydantic_core.core_schema.with_info_plain_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.with_info_plain_validator_function	pydantic_core.core_schema>with_info_plain_validator_function	info,field_name,ref,json_schema_input_schema,metadata,serialization
+2	pydantic_core.core_schema.with_info_wrap_validator_function	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.with_info_wrap_validator_function	pydantic_core.core_schema>with_info_wrap_validator_function	validator,info,schema,field_name,json_schema_input_schema,ref,metadata,serialization
+2	pydantic_core.core_schema.wrap_serializer_function_ser_schema	heading	api/pydantic-core/pydantic_core_schema/	pydantic_core.core_schema.wrap_serializer_function_ser_schema	pydantic_core.core_schema>wrap_serializer_function_ser_schema	is_field_serializer,model,info,field_name,info_arg,schema,return_schema,when_used
+2	pydantic_core.from_json	heading	api/pydantic-core/pydantic_core/	pydantic_core.from_json	pydantic_core>from_json	json.loads,bytearray,allow_inf_nan,cache_strings,keys,allow_partial
+2	pydantic_core.to_json	heading	api/pydantic-core/pydantic_core/	pydantic_core.to_json	pydantic_core>to_json#2	indent,ensure_ascii,include,exclude,by_alias,exclude_none,round_trip,timedelta_mode,temporal_mode,datetime,datetime.datetime,datetime.date
+2	pydantic_core.to_jsonable_python	heading	api/pydantic-core/pydantic_core/	pydantic_core.to_jsonable_python	pydantic_core>to_jsonable_python	include,exclude,by_alias,exclude_none,round_trip,timedelta_mode,temporal_mode,datetime,datetime.datetime,datetime.date,datetime.time,datetime.timedelta
+2	pydantic_extra_types.color.Color	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color	Color>Color#2	
+2	pydantic_extra_types.color.Color.as_hex	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color.as_hex	Color>Methods>as_hex	
+2	pydantic_extra_types.color.Color.as_hsl	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color.as_hsl	Color>Methods>as_hsl	
+2	pydantic_extra_types.color.Color.as_hsl_tuple	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color.as_hsl_tuple	Color>Methods>as_hsl_tuple	alpha
+2	pydantic_extra_types.color.Color.as_named	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color.as_named	Color>Methods>as_named	fallback
+2	pydantic_extra_types.color.Color.as_rgb	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color.as_rgb	Color>Methods>as_rgb	
+2	pydantic_extra_types.color.Color.as_rgb_tuple	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color.as_rgb_tuple	Color>Methods>as_rgb_tuple	alpha
+2	pydantic_extra_types.color.Color.original	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.Color.original	Color>Methods>original	
+2	pydantic_extra_types.color.RGBA	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.RGBA	Color>RGBA	
+2	pydantic_extra_types.color.float_to_255	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.float_to_255	Color>float_to_255	
+2	pydantic_extra_types.color.ints_to_rgba	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.ints_to_rgba	Color>ints_to_rgba	alpha
+2	pydantic_extra_types.color.parse_color_value	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.parse_color_value	Color>parse_color_value	max_val
+2	pydantic_extra_types.color.parse_float_alpha	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.parse_float_alpha	Color>parse_float_alpha	
+2	pydantic_extra_types.color.parse_hsl	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.parse_hsl	Color>parse_hsl	h_units,sat,light,alpha
+2	pydantic_extra_types.color.parse_str	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.parse_str	Color>parse_str	transparent
+2	pydantic_extra_types.color.parse_tuple	heading	api/pydantic-extra-types/pydantic_extra_types_color/	pydantic_extra_types.color.parse_tuple	Color>parse_tuple	
+2	pydantic_extra_types.coordinate.Coordinate	heading	api/pydantic-extra-types/pydantic_extra_types_coordinate/	pydantic_extra_types.coordinate.Coordinate	Coordinate>Coordinate#2	
+2	pydantic_extra_types.coordinate.Latitude	heading	api/pydantic-extra-types/pydantic_extra_types_coordinate/	pydantic_extra_types.coordinate.Latitude	Coordinate>Latitude	
+2	pydantic_extra_types.coordinate.Longitude	heading	api/pydantic-extra-types/pydantic_extra_types_coordinate/	pydantic_extra_types.coordinate.Longitude	Coordinate>Longitude	
+2	pydantic_extra_types.country.CountryAlpha2	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha2	Country>CountryAlpha2	
+2	pydantic_extra_types.country.CountryAlpha2.alpha3	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha2.alpha3	CountryAlpha2>Attributes>alpha3	
+2	pydantic_extra_types.country.CountryAlpha2.numeric_code	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha2.numeric_code	CountryAlpha2>Attributes>numeric_code	
+2	pydantic_extra_types.country.CountryAlpha2.short_name	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha2.short_name	CountryAlpha2>Attributes>short_name	
+2	pydantic_extra_types.country.CountryAlpha3	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha3	Country>CountryAlpha3	
+2	pydantic_extra_types.country.CountryAlpha3.alpha2	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha3.alpha2	CountryAlpha3>Attributes>alpha2	
+2	pydantic_extra_types.country.CountryAlpha3.numeric_code	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha3.numeric_code	CountryAlpha3>Attributes>numeric_code#2	
+2	pydantic_extra_types.country.CountryAlpha3.short_name	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryAlpha3.short_name	CountryAlpha3>Attributes>short_name#2	
+2	pydantic_extra_types.country.CountryNumericCode	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryNumericCode	Country>CountryNumericCode	
+2	pydantic_extra_types.country.CountryNumericCode.alpha2	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryNumericCode.alpha2	CountryNumericCode>Attributes>alpha2#2	
+2	pydantic_extra_types.country.CountryNumericCode.alpha3	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryNumericCode.alpha3	CountryNumericCode>Attributes>alpha3#2	
+2	pydantic_extra_types.country.CountryNumericCode.short_name	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryNumericCode.short_name	CountryNumericCode>Attributes>short_name#3	
+2	pydantic_extra_types.country.CountryShortName	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryShortName	Country>CountryShortName	
+2	pydantic_extra_types.country.CountryShortName.alpha2	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryShortName.alpha2	CountryShortName>Attributes>alpha2#3	
+2	pydantic_extra_types.country.CountryShortName.alpha3	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryShortName.alpha3	CountryShortName>Attributes>alpha3#3	
+2	pydantic_extra_types.country.CountryShortName.numeric_code	heading	api/pydantic-extra-types/pydantic_extra_types_country/	pydantic_extra_types.country.CountryShortName.numeric_code	CountryShortName>Attributes>numeric_code#3	
+2	pydantic_extra_types.currency_code.Currency	heading	api/pydantic-extra-types/pydantic_extra_types_currency_code/	pydantic_extra_types.currency_code.Currency	Currency>Currency#2	
+2	pydantic_extra_types.currency_code.ISO4217	heading	api/pydantic-extra-types/pydantic_extra_types_currency_code/	pydantic_extra_types.currency_code.ISO4217	Currency>ISO4217	
+2	pydantic_extra_types.isbn.ISBN	heading	api/pydantic-extra-types/pydantic_extra_types_isbn/	pydantic_extra_types.isbn.ISBN	ISBN>ISBN#2	
+2	pydantic_extra_types.isbn.ISBN.convert_isbn10_to_isbn13	heading	api/pydantic-extra-types/pydantic_extra_types_isbn/	pydantic_extra_types.isbn.ISBN.convert_isbn10_to_isbn13	ISBN>Methods>convert_isbn10_to_isbn13	
+2	pydantic_extra_types.isbn.ISBN.validate_isbn_format	heading	api/pydantic-extra-types/pydantic_extra_types_isbn/	pydantic_extra_types.isbn.ISBN.validate_isbn_format	ISBN>Methods>validate_isbn_format	
+2	pydantic_extra_types.isbn.isbn10_digit_calc	heading	api/pydantic-extra-types/pydantic_extra_types_isbn/	pydantic_extra_types.isbn.isbn10_digit_calc	ISBN>isbn10_digit_calc	isbn
+2	pydantic_extra_types.isbn.isbn13_digit_calc	heading	api/pydantic-extra-types/pydantic_extra_types_isbn/	pydantic_extra_types.isbn.isbn13_digit_calc	ISBN>isbn13_digit_calc	isbn
+2	pydantic_extra_types.language_code.ISO639_3	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.ISO639_3	Language>ISO639_3	
+2	pydantic_extra_types.language_code.ISO639_5	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.ISO639_5	Language>ISO639_5	
+2	pydantic_extra_types.language_code.LanguageAlpha2	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.LanguageAlpha2	Language>LanguageAlpha2	
+2	pydantic_extra_types.language_code.LanguageAlpha2.alpha3	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.LanguageAlpha2.alpha3	LanguageAlpha2>Attributes>alpha3	
+2	pydantic_extra_types.language_code.LanguageAlpha2.name	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.LanguageAlpha2.name	LanguageAlpha2>Attributes>name	
+2	pydantic_extra_types.language_code.LanguageInfo	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.LanguageInfo	Language>LanguageInfo	
+2	pydantic_extra_types.language_code.LanguageName	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.LanguageName	Language>LanguageName	
+2	pydantic_extra_types.language_code.LanguageName.alpha2	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.LanguageName.alpha2	LanguageName>Attributes>alpha2	
+2	pydantic_extra_types.language_code.LanguageName.alpha3	heading	api/pydantic-extra-types/pydantic_extra_types_language_code/	pydantic_extra_types.language_code.LanguageName.alpha3	LanguageName>Attributes>alpha3#2	
+2	pydantic_extra_types.mac_address.MacAddress	heading	api/pydantic-extra-types/pydantic_extra_types_mac_address/	pydantic_extra_types.mac_address.MacAddress	Mac Address>MacAddress	
+2	pydantic_extra_types.mac_address.MacAddress.validate_mac_address	heading	api/pydantic-extra-types/pydantic_extra_types_mac_address/	pydantic_extra_types.mac_address.MacAddress.validate_mac_address	MacAddress>Methods>validate_mac_address	
+2	pydantic_extra_types.payment.PaymentCardBrand	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardBrand	Payment>PaymentCardBrand	
+2	pydantic_extra_types.payment.PaymentCardNumber	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber	Payment>PaymentCardNumber	
+2	pydantic_extra_types.payment.PaymentCardNumber.bin	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.bin	PaymentCardNumber>Attributes>bin	
+2	pydantic_extra_types.payment.PaymentCardNumber.brand	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.brand	PaymentCardNumber>Attributes>brand	
+2	pydantic_extra_types.payment.PaymentCardNumber.last4	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.last4	PaymentCardNumber>Attributes>last4	
+2	pydantic_extra_types.payment.PaymentCardNumber.masked	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.masked	PaymentCardNumber>Attributes>masked	
+2	pydantic_extra_types.payment.PaymentCardNumber.max_length	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.max_length	PaymentCardNumber>Attributes>max_length	
+2	pydantic_extra_types.payment.PaymentCardNumber.min_length	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.min_length	PaymentCardNumber>Attributes>min_length	
+2	pydantic_extra_types.payment.PaymentCardNumber.strip_whitespace	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.strip_whitespace	PaymentCardNumber>Attributes>strip_whitespace	
+2	pydantic_extra_types.payment.PaymentCardNumber.validate	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.validate	PaymentCardNumber>Methods>validate	core_schema.ValidationInfo
+2	pydantic_extra_types.payment.PaymentCardNumber.validate_brand	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.validate_brand	PaymentCardNumber>Methods>validate_brand	card_number
+2	pydantic_extra_types.payment.PaymentCardNumber.validate_digits	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.validate_digits	PaymentCardNumber>Methods>validate_digits	card_number
+2	pydantic_extra_types.payment.PaymentCardNumber.validate_luhn_check_digit	heading	api/pydantic-extra-types/pydantic_extra_types_payment/	pydantic_extra_types.payment.PaymentCardNumber.validate_luhn_check_digit	PaymentCardNumber>Methods>validate_luhn_check_digit	card_number
+2	pydantic_extra_types.pendulum_dt.Date	heading	api/pydantic-extra-types/pydantic_extra_types_pendulum_dt/	pydantic_extra_types.pendulum_dt.Date	Pendulum>Date	
+2	pydantic_extra_types.pendulum_dt.DateTime	heading	api/pydantic-extra-types/pydantic_extra_types_pendulum_dt/	pydantic_extra_types.pendulum_dt.DateTime	Pendulum>DateTime	
+2	pydantic_extra_types.pendulum_dt.Duration	heading	api/pydantic-extra-types/pydantic_extra_types_pendulum_dt/	pydantic_extra_types.pendulum_dt.Duration	Pendulum>Duration	
+2	pydantic_extra_types.pendulum_dt.Duration.to_iso8601_string	heading	api/pydantic-extra-types/pydantic_extra_types_pendulum_dt/	pydantic_extra_types.pendulum_dt.Duration.to_iso8601_string	Duration>Methods>to_iso8601_string	
+2	pydantic_extra_types.pendulum_dt.Time	heading	api/pydantic-extra-types/pydantic_extra_types_pendulum_dt/	pydantic_extra_types.pendulum_dt.Time	Pendulum>Time	
+2	pydantic_extra_types.phone_numbers.PhoneNumber	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumber	Phone Numbers>PhoneNumber	
+2	pydantic_extra_types.phone_numbers.PhoneNumber.default_region_code	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumber.default_region_code	Examples>Attributes>default_region_code	
+2	pydantic_extra_types.phone_numbers.PhoneNumber.phone_format	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumber.phone_format	Examples>Attributes>phone_format	
+2	pydantic_extra_types.phone_numbers.PhoneNumber.supported_regions	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumber.supported_regions	Examples>Attributes>supported_regions	
+2	pydantic_extra_types.phone_numbers.PhoneNumberValidator	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumberValidator	Phone Numbers>PhoneNumberValidator	
+2	pydantic_extra_types.phone_numbers.PhoneNumberValidator.default_region	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumberValidator.default_region	PhoneNumberValidator>Attributes>default_region	
+2	pydantic_extra_types.phone_numbers.PhoneNumberValidator.number_format	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumberValidator.number_format	PhoneNumberValidator>Attributes>number_format	phonenumbers.PhoneNumberFormat
+2	pydantic_extra_types.phone_numbers.PhoneNumberValidator.supported_regions	heading	api/pydantic-extra-types/pydantic_extra_types_phone_numbers/	pydantic_extra_types.phone_numbers.PhoneNumberValidator.supported_regions	PhoneNumberValidator>Attributes>supported_regions#2	
+2	pydantic_extra_types.routing_number.ABARoutingNumber	heading	api/pydantic-extra-types/pydantic_extra_types_routing_numbers/	pydantic_extra_types.routing_number.ABARoutingNumber	Routing Numbers>ABARoutingNumber	
+2	pydantic_extra_types.script_code.ISO_15924	heading	api/pydantic-extra-types/pydantic_extra_types_script_code/	pydantic_extra_types.script_code.ISO_15924	Script Code>ISO_15924	
+2	pydantic_extra_types.semantic_version.SemanticVersion	heading	api/pydantic-extra-types/pydantic_extra_types_semantic_version/	pydantic_extra_types.semantic_version.SemanticVersion	Semantic Version>SemanticVersion	
+2	pydantic_extra_types.timezone_name.TimeZoneName	heading	api/pydantic-extra-types/pydantic_extra_types_timezone_name/	pydantic_extra_types.timezone_name.TimeZoneName	Timezone Name>TimeZoneName	
+2	pydantic_extra_types.timezone_name.get_timezones	heading	api/pydantic-extra-types/pydantic_extra_types_timezone_name/	pydantic_extra_types.timezone_name.get_timezones	Timezone Name>get_timezones	
+2	pydantic_extra_types.ulid.ULID	heading	api/pydantic-extra-types/pydantic_extra_types_ulid/	pydantic_extra_types.ulid.ULID	ULID>ULID#2	
+2	pydantic_settings.BaseSettings	heading	api/pydantic_settings/	pydantic_settings.BaseSettings	Pydantic Settings>BaseSettings	
+2	pydantic_settings.BaseSettings.settings_customise_sources	heading	api/pydantic_settings/	pydantic_settings.BaseSettings.settings_customise_sources	BaseSettings>Methods>settings_customise_sources	settings_cls,init_settings,env_settings,dotenv_settings,file_secret_settings
+2	pydantic_settings.CliApp	heading	api/pydantic_settings/	pydantic_settings.CliApp	Pydantic Settings>CliApp	
+2	pydantic_settings.CliApp.format_help	heading	api/pydantic_settings/	pydantic_settings.CliApp.format_help	CliApp>Methods>format_help	model,cli_settings_source,strip_ansi_color
+2	pydantic_settings.CliApp.print_help	heading	api/pydantic_settings/	pydantic_settings.CliApp.print_help	CliApp>Methods>print_help	model,cli_settings_source,file,strip_ansi_color
+2	pydantic_settings.CliApp.run	heading	api/pydantic_settings/	pydantic_settings.CliApp.run	CliApp>Methods>run	pydantic.dataclasses.dataclass,cli_cmd,model_cls,cli_args,cli_settings_source,cli_exit_on_error,cli_cmd_method_name,model_init_data
+2	pydantic_settings.CliApp.run_subcommand	heading	api/pydantic_settings/	pydantic_settings.CliApp.run_subcommand	CliApp>Methods>run_subcommand	cli_cmd,model,cli_exit_on_error,cli_cmd_method_name
+2	pydantic_settings.CliApp.serialize	heading	api/pydantic_settings/	pydantic_settings.CliApp.serialize	CliApp>Methods>serialize	model,list_style,argparse,dict_style,positionals_first
+2	pydantic_settings.CliSettingsSource	heading	api/pydantic_settings/	pydantic_settings.CliSettingsSource	Pydantic Settings>CliSettingsSource	
+2	pydantic_settings.CliSettingsSource.root_parser	heading	api/pydantic_settings/	pydantic_settings.CliSettingsSource.root_parser	CliSettingsSource>Attributes>root_parser	
+2	pydantic_settings.DotEnvSettingsSource	heading	api/pydantic_settings/	pydantic_settings.DotEnvSettingsSource	Pydantic Settings>DotEnvSettingsSource	
+2	pydantic_settings.EnvSettingsSource	heading	api/pydantic_settings/	pydantic_settings.EnvSettingsSource	Pydantic Settings>EnvSettingsSource	
+2	pydantic_settings.EnvSettingsSource.explode_env_vars	heading	api/pydantic_settings/	pydantic_settings.EnvSettingsSource.explode_env_vars	EnvSettingsSource>Methods>explode_env_vars	field_name,field,env_vars
+2	pydantic_settings.EnvSettingsSource.get_field_value	heading	api/pydantic_settings/	pydantic_settings.EnvSettingsSource.get_field_value	EnvSettingsSource>Methods>get_field_value#2	field,field_name
+2	pydantic_settings.EnvSettingsSource.next_field	heading	api/pydantic_settings/	pydantic_settings.EnvSettingsSource.next_field	EnvSettingsSource>Methods>next_field	field,case_sensitive
+2	pydantic_settings.EnvSettingsSource.prepare_field_value	heading	api/pydantic_settings/	pydantic_settings.EnvSettingsSource.prepare_field_value	EnvSettingsSource>Methods>prepare_field_value	field,field_name
+2	pydantic_settings.ForceDecode	heading	api/pydantic_settings/	pydantic_settings.ForceDecode	Pydantic Settings>ForceDecode	
+2	pydantic_settings.GoogleSecretManagerSettingsSource	heading	api/pydantic_settings/	pydantic_settings.GoogleSecretManagerSettingsSource	Pydantic Settings>GoogleSecretManagerSettingsSource	
+2	pydantic_settings.GoogleSecretManagerSettingsSource.get_field_value	heading	api/pydantic_settings/	pydantic_settings.GoogleSecretManagerSettingsSource.get_field_value	GoogleSecretManagerSettingsSource>Methods>get_field_value#4	field,field_name
+2	pydantic_settings.InitSettingsSource	heading	api/pydantic_settings/	pydantic_settings.InitSettingsSource	Pydantic Settings>InitSettingsSource	
+2	pydantic_settings.JsonConfigSettingsSource	heading	api/pydantic_settings/	pydantic_settings.JsonConfigSettingsSource	Pydantic Settings>JsonConfigSettingsSource	
+2	pydantic_settings.NoDecode	heading	api/pydantic_settings/	pydantic_settings.NoDecode	Pydantic Settings>NoDecode	
+2	pydantic_settings.PydanticBaseSettingsSource	heading	api/pydantic_settings/	pydantic_settings.PydanticBaseSettingsSource	Pydantic Settings>PydanticBaseSettingsSource	
+2	pydantic_settings.PydanticBaseSettingsSource.current_state	heading	api/pydantic_settings/	pydantic_settings.PydanticBaseSettingsSource.current_state	PydanticBaseSettingsSource>Attributes>current_state	
+2	pydantic_settings.PydanticBaseSettingsSource.decode_complex_value	heading	api/pydantic_settings/	pydantic_settings.PydanticBaseSettingsSource.decode_complex_value	PydanticBaseSettingsSource>Methods>decode_complex_value	field_name,field
+2	pydantic_settings.PydanticBaseSettingsSource.field_is_complex	heading	api/pydantic_settings/	pydantic_settings.PydanticBaseSettingsSource.field_is_complex	PydanticBaseSettingsSource>Methods>field_is_complex	field
+2	pydantic_settings.PydanticBaseSettingsSource.get_field_value	heading	api/pydantic_settings/	pydantic_settings.PydanticBaseSettingsSource.get_field_value	PydanticBaseSettingsSource>Methods>get_field_value#3	field,field_name
+2	pydantic_settings.PydanticBaseSettingsSource.prepare_field_value	heading	api/pydantic_settings/	pydantic_settings.PydanticBaseSettingsSource.prepare_field_value	PydanticBaseSettingsSource>Methods>prepare_field_value#2	field_name,field,value_is_complex
+2	pydantic_settings.PydanticBaseSettingsSource.settings_sources_data	heading	api/pydantic_settings/	pydantic_settings.PydanticBaseSettingsSource.settings_sources_data	PydanticBaseSettingsSource>Attributes>settings_sources_data	
+2	pydantic_settings.PyprojectTomlConfigSettingsSource	heading	api/pydantic_settings/	pydantic_settings.PyprojectTomlConfigSettingsSource	Pydantic Settings>PyprojectTomlConfigSettingsSource	
+2	pydantic_settings.SecretsSettingsSource	heading	api/pydantic_settings/	pydantic_settings.SecretsSettingsSource	Pydantic Settings>SecretsSettingsSource	
+2	pydantic_settings.SecretsSettingsSource.find_case_path	heading	api/pydantic_settings/	pydantic_settings.SecretsSettingsSource.find_case_path	SecretsSettingsSource>Methods>find_case_path	dir_path,file_name,case_sensitive
+2	pydantic_settings.SecretsSettingsSource.get_field_value	heading	api/pydantic_settings/	pydantic_settings.SecretsSettingsSource.get_field_value	SecretsSettingsSource>Methods>get_field_value	field,field_name
+2	pydantic_settings.SettingsConfigDict	heading	api/pydantic_settings/	pydantic_settings.SettingsConfigDict	Pydantic Settings>SettingsConfigDict	
+2	pydantic_settings.SettingsConfigDict.pyproject_toml_depth	heading	api/pydantic_settings/	pydantic_settings.SettingsConfigDict.pyproject_toml_depth	SettingsConfigDict>Attributes>pyproject_toml_depth	
+2	pydantic_settings.SettingsConfigDict.pyproject_toml_table_header	heading	api/pydantic_settings/	pydantic_settings.SettingsConfigDict.pyproject_toml_table_header	SettingsConfigDict>Attributes>pyproject_toml_table_header	
+2	pydantic_settings.SettingsConfigDict.yaml_config_section	heading	api/pydantic_settings/	pydantic_settings.SettingsConfigDict.yaml_config_section	SettingsConfigDict>Attributes>yaml_config_section	
+2	pydantic_settings.SettingsError	heading	api/pydantic_settings/	pydantic_settings.SettingsError	Pydantic Settings>SettingsError	
+2	pydantic_settings.TomlConfigSettingsSource	heading	api/pydantic_settings/	pydantic_settings.TomlConfigSettingsSource	Pydantic Settings>TomlConfigSettingsSource	
+2	pydantic_settings.YamlConfigSettingsSource	heading	api/pydantic_settings/	pydantic_settings.YamlConfigSettingsSource	Pydantic Settings>YamlConfigSettingsSource	
+2	pydantic_settings.get_subcommand	heading	api/pydantic_settings/	pydantic_settings.get_subcommand	Pydantic Settings>get_subcommand	model,is_required,cli_exit_on_error

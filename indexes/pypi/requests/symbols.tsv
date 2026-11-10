@@ -1,0 +1,151 @@
+#schema=1	ver	symbol	kind	path	anchor	heading_path	params
+2	requests	heading	api/	module-requests	Developer Interface	
+2	requests.ConnectTimeout	dt	api/	requests.ConnectTimeout	Developer Interface>Exceptions>ConnectTimeout	args,kwargs
+2	requests.ConnectionError	dt	api/	requests.ConnectionError	Developer Interface>Exceptions>ConnectionError	args,kwargs
+2	requests.HTTPError	dt	api/	requests.HTTPError	Developer Interface>Exceptions>HTTPError	args,kwargs
+2	requests.JSONDecodeError	dt	api/	requests.JSONDecodeError	Developer Interface>Exceptions>JSONDecodeError	args,kwargs
+2	requests.PreparedRequest	dt	api/	requests.PreparedRequest	Developer Interface>Lower-Lower-Level Classes>PreparedRequest	
+2	requests.PreparedRequest.body	dt	api/	requests.PreparedRequest.body	Developer Interface>Lower-Lower-Level Classes>body	
+2	requests.PreparedRequest.deregister_hook	dt	api/	requests.PreparedRequest.deregister_hook	Developer Interface>Lower-Lower-Level Classes>deregister_hook	event,hook
+2	requests.PreparedRequest.headers	dt	api/	requests.PreparedRequest.headers	Developer Interface>Lower-Lower-Level Classes>headers	
+2	requests.PreparedRequest.hooks	dt	api/	requests.PreparedRequest.hooks	Developer Interface>Lower-Lower-Level Classes>hooks	
+2	requests.PreparedRequest.method	dt	api/	requests.PreparedRequest.method	Developer Interface>Lower-Lower-Level Classes>method	
+2	requests.PreparedRequest.path_url	dt	api/	requests.PreparedRequest.path_url	Developer Interface>Lower-Lower-Level Classes>path_url	
+2	requests.PreparedRequest.prepare	dt	api/	requests.PreparedRequest.prepare	Developer Interface>Lower-Lower-Level Classes>prepare	method,url,headers,files,data,params,auth,cookies,hooks,json
+2	requests.PreparedRequest.prepare_auth	dt	api/	requests.PreparedRequest.prepare_auth	Developer Interface>Lower-Lower-Level Classes>prepare_auth	auth,url
+2	requests.PreparedRequest.prepare_body	dt	api/	requests.PreparedRequest.prepare_body	Developer Interface>Lower-Lower-Level Classes>prepare_body	data,files,json
+2	requests.PreparedRequest.prepare_content_length	dt	api/	requests.PreparedRequest.prepare_content_length	Developer Interface>Lower-Lower-Level Classes>prepare_content_length	body
+2	requests.PreparedRequest.prepare_cookies	dt	api/	requests.PreparedRequest.prepare_cookies	Developer Interface>Lower-Lower-Level Classes>prepare_cookies	cookies
+2	requests.PreparedRequest.prepare_headers	dt	api/	requests.PreparedRequest.prepare_headers	Developer Interface>Lower-Lower-Level Classes>prepare_headers	headers
+2	requests.PreparedRequest.prepare_hooks	dt	api/	requests.PreparedRequest.prepare_hooks	Developer Interface>Lower-Lower-Level Classes>prepare_hooks	hooks
+2	requests.PreparedRequest.prepare_method	dt	api/	requests.PreparedRequest.prepare_method	Developer Interface>Lower-Lower-Level Classes>prepare_method	method
+2	requests.PreparedRequest.prepare_url	dt	api/	requests.PreparedRequest.prepare_url	Developer Interface>Lower-Lower-Level Classes>prepare_url	url,params
+2	requests.PreparedRequest.register_hook	dt	api/	requests.PreparedRequest.register_hook	Developer Interface>Lower-Lower-Level Classes>register_hook	event,hook
+2	requests.PreparedRequest.url	dt	api/	requests.PreparedRequest.url	Developer Interface>Lower-Lower-Level Classes>url	
+2	requests.ReadTimeout	dt	api/	requests.ReadTimeout	Developer Interface>Exceptions>ReadTimeout	args,kwargs
+2	requests.Request	dt	api/	requests.Request	Developer Interface>Lower-Level Classes>Request	method,url,headers,files,data,params,auth,cookies,hooks,json
+2	requests.Request.deregister_hook	dt	api/	requests.Request.deregister_hook	Developer Interface>Lower-Level Classes>deregister_hook	event,hook
+2	requests.Request.prepare	dt	api/	requests.Request.prepare	Developer Interface>Lower-Level Classes>prepare	
+2	requests.Request.register_hook	dt	api/	requests.Request.register_hook	Developer Interface>Lower-Level Classes>register_hook	event,hook
+2	requests.RequestException	dt	api/	requests.RequestException	Developer Interface>Exceptions>RequestException	args,kwargs
+2	requests.Response	dt	api/	requests.Response	Developer Interface>Lower-Level Classes>Response	
+2	requests.Response.apparent_encoding	dt	api/	requests.Response.apparent_encoding	Developer Interface>Lower-Level Classes>apparent_encoding	
+2	requests.Response.close	dt	api/	requests.Response.close	Developer Interface>Lower-Level Classes>close	raw
+2	requests.Response.content	dt	api/	requests.Response.content	Developer Interface>Lower-Level Classes>content	
+2	requests.Response.cookies	dt	api/	requests.Response.cookies	Developer Interface>Lower-Level Classes>cookies	
+2	requests.Response.elapsed	dt	api/	requests.Response.elapsed	Developer Interface>Lower-Level Classes>elapsed	stream
+2	requests.Response.encoding	dt	api/	requests.Response.encoding	Developer Interface>Lower-Level Classes>encoding	
+2	requests.Response.headers	dt	api/	requests.Response.headers	Developer Interface>Lower-Level Classes>headers	
+2	requests.Response.history	dt	api/	requests.Response.history	Developer Interface>Lower-Level Classes>history	
+2	requests.Response.is_redirect	dt	api/	requests.Response.is_redirect	Developer Interface>Lower-Level Classes>is_redirect	
+2	requests.Response.iter_content	dt	api/	requests.Response.iter_content	Developer Interface>Lower-Level Classes>iter_content	chunk_size,decode_unicode
+2	requests.Response.iter_lines	dt	api/	requests.Response.iter_lines	Developer Interface>Lower-Level Classes>iter_lines	chunk_size,decode_unicode,delimiter
+2	requests.Response.json	dt	api/	requests.Response.json	Developer Interface>Lower-Level Classes>json	kwargs
+2	requests.Response.links	dt	api/	requests.Response.links	Developer Interface>Lower-Level Classes>links	
+2	requests.Response.next	dt	api/	requests.Response.next	Developer Interface>Lower-Level Classes>next	
+2	requests.Response.ok	dt	api/	requests.Response.ok	Developer Interface>Lower-Level Classes>ok	status_code
+2	requests.Response.raise_for_status	dt	api/	requests.Response.raise_for_status	Developer Interface>Lower-Level Classes>raise_for_status	
+2	requests.Response.raw	dt	api/	requests.Response.raw	Developer Interface>Lower-Level Classes>raw	stream
+2	requests.Response.reason	dt	api/	requests.Response.reason	Developer Interface>Lower-Level Classes>reason	
+2	requests.Response.request	dt	api/	requests.Response.request	Developer Interface>Lower-Level Classes>request	
+2	requests.Response.status_code	dt	api/	requests.Response.status_code	Developer Interface>Lower-Level Classes>status_code	
+2	requests.Response.text	dt	api/	requests.Response.text	Developer Interface>Lower-Level Classes>text	charset_normalizer,chardet,r.encoding
+2	requests.Response.url	dt	api/	requests.Response.url	Developer Interface>Lower-Level Classes>url	
+2	requests.Session	dt	api/	requests.Session	Developer Interface>Request Sessions>Session	
+2	requests.Session.auth	dt	api/	requests.Session.auth	Developer Interface>Request Sessions>auth	
+2	requests.Session.cert	dt	api/	requests.Session.cert	Developer Interface>Request Sessions>cert	
+2	requests.Session.close	dt	api/	requests.Session.close	Developer Interface>Request Sessions>close	
+2	requests.Session.cookies	dt	api/	requests.Session.cookies	Developer Interface>Request Sessions>cookies	cookielib.CookieJar
+2	requests.Session.delete	dt	api/	requests.Session.delete	Developer Interface>Request Sessions>delete	url,kwargs
+2	requests.Session.get	dt	api/	requests.Session.get	Developer Interface>Request Sessions>get	url,params,kwargs
+2	requests.Session.get_adapter	dt	api/	requests.Session.get_adapter	Developer Interface>Request Sessions>get_adapter	url
+2	requests.Session.get_redirect_target	dt	api/	requests.Session.get_redirect_target	Developer Interface>Request Sessions>get_redirect_target	resp
+2	requests.Session.head	dt	api/	requests.Session.head	Developer Interface>Request Sessions>head	url,kwargs
+2	requests.Session.headers	dt	api/	requests.Session.headers	Developer Interface>Request Sessions>headers	
+2	requests.Session.hooks	dt	api/	requests.Session.hooks	Developer Interface>Request Sessions>hooks	
+2	requests.Session.max_redirects	dt	api/	requests.Session.max_redirects	Developer Interface>Request Sessions>max_redirects	
+2	requests.Session.merge_environment_settings	dt	api/	requests.Session.merge_environment_settings	Developer Interface>Request Sessions>merge_environment_settings	url,proxies,stream,verify,cert
+2	requests.Session.mount	dt	api/	requests.Session.mount	Developer Interface>Request Sessions>mount	prefix,adapter
+2	requests.Session.options	dt	api/	requests.Session.options	Developer Interface>Request Sessions>options	url,kwargs
+2	requests.Session.params	dt	api/	requests.Session.params	Developer Interface>Request Sessions>params	
+2	requests.Session.patch	dt	api/	requests.Session.patch	Developer Interface>Request Sessions>patch	url,data,kwargs
+2	requests.Session.post	dt	api/	requests.Session.post	Developer Interface>Request Sessions>post	url,data,json,kwargs
+2	requests.Session.prepare_request	dt	api/	requests.Session.prepare_request	Developer Interface>Request Sessions>prepare_request	request
+2	requests.Session.proxies	dt	api/	requests.Session.proxies	Developer Interface>Request Sessions>proxies	
+2	requests.Session.put	dt	api/	requests.Session.put	Developer Interface>Request Sessions>put	url,data,kwargs
+2	requests.Session.rebuild_auth	dt	api/	requests.Session.rebuild_auth	Developer Interface>Request Sessions>rebuild_auth	prepared_request,response
+2	requests.Session.rebuild_method	dt	api/	requests.Session.rebuild_method	Developer Interface>Request Sessions>rebuild_method	prepared_request,response
+2	requests.Session.rebuild_proxies	dt	api/	requests.Session.rebuild_proxies	Developer Interface>Request Sessions>rebuild_proxies	prepared_request,proxies
+2	requests.Session.request	dt	api/	requests.Session.request	Developer Interface>Request Sessions>request	method,url,params,data,headers,cookies,files,auth,timeout,allow_redirects,proxies,hooks,stream,verify,cert,json
+2	requests.Session.resolve_redirects	dt	api/	requests.Session.resolve_redirects	Developer Interface>Request Sessions>resolve_redirects	resp,req,stream,timeout,verify,cert,proxies,yield_requests,adapter_kwargs
+2	requests.Session.send	dt	api/	requests.Session.send	Developer Interface>Request Sessions>send	request,kwargs
+2	requests.Session.should_strip_auth	dt	api/	requests.Session.should_strip_auth	Developer Interface>Request Sessions>should_strip_auth	old_url,new_url
+2	requests.Session.stream	dt	api/	requests.Session.stream	Developer Interface>Request Sessions>stream	
+2	requests.Session.trust_env	dt	api/	requests.Session.trust_env	Developer Interface>Request Sessions>trust_env	
+2	requests.Session.verify	dt	api/	requests.Session.verify	Developer Interface>Request Sessions>verify	
+2	requests.Timeout	dt	api/	requests.Timeout	Developer Interface>Exceptions>Timeout	args,kwargs
+2	requests.TooManyRedirects	dt	api/	requests.TooManyRedirects	Developer Interface>Exceptions>TooManyRedirects	args,kwargs
+2	requests.adapters.BaseAdapter	dt	api/	requests.adapters.BaseAdapter	Developer Interface>Lower-Lower-Level Classes>BaseAdapter	
+2	requests.adapters.BaseAdapter.close	dt	api/	requests.adapters.BaseAdapter.close	Developer Interface>Lower-Lower-Level Classes>close	
+2	requests.adapters.BaseAdapter.send	dt	api/	requests.adapters.BaseAdapter.send	Developer Interface>Lower-Lower-Level Classes>send	request,stream,timeout,verify,cert,proxies
+2	requests.adapters.HTTPAdapter	dt	api/	requests.adapters.HTTPAdapter	Developer Interface>Lower-Lower-Level Classes>HTTPAdapter	pool_connections,pool_maxsize,max_retries,pool_block
+2	requests.adapters.HTTPAdapter.add_headers	dt	api/	requests.adapters.HTTPAdapter.add_headers	Developer Interface>Lower-Lower-Level Classes>add_headers	request,kwargs
+2	requests.adapters.HTTPAdapter.build_connection_pool_key_attributes	dt	api/	requests.adapters.HTTPAdapter.build_connection_pool_key_attributes	Developer Interface>Lower-Lower-Level Classes>build_connection_pool_key_attributes	request,verify,cert,os.path.isdir,ssl.SSLContext
+2	requests.adapters.HTTPAdapter.build_response	dt	api/	requests.adapters.HTTPAdapter.build_response	Developer Interface>Lower-Lower-Level Classes>build_response	req,resp
+2	requests.adapters.HTTPAdapter.cert_verify	dt	api/	requests.adapters.HTTPAdapter.cert_verify	Developer Interface>Lower-Lower-Level Classes>cert_verify	conn,url,verify,cert
+2	requests.adapters.HTTPAdapter.close	dt	api/	requests.adapters.HTTPAdapter.close	Developer Interface>Lower-Lower-Level Classes>close	
+2	requests.adapters.HTTPAdapter.get_connection	dt	api/	requests.adapters.HTTPAdapter.get_connection	Developer Interface>Lower-Lower-Level Classes>get_connection	url,proxies
+2	requests.adapters.HTTPAdapter.get_connection_with_tls_context	dt	api/	requests.adapters.HTTPAdapter.get_connection_with_tls_context	Developer Interface>Lower-Lower-Level Classes>get_connection_with_tls_context	request,verify,proxies,cert
+2	requests.adapters.HTTPAdapter.init_poolmanager	dt	api/	requests.adapters.HTTPAdapter.init_poolmanager	Developer Interface>Lower-Lower-Level Classes>init_poolmanager	connections,maxsize,block,pool_kwargs
+2	requests.adapters.HTTPAdapter.proxy_headers	dt	api/	requests.adapters.HTTPAdapter.proxy_headers	Developer Interface>Lower-Lower-Level Classes>proxy_headers	proxy
+2	requests.adapters.HTTPAdapter.proxy_manager_for	dt	api/	requests.adapters.HTTPAdapter.proxy_manager_for	Developer Interface>Lower-Lower-Level Classes>proxy_manager_for	proxy,proxy_kwargs
+2	requests.adapters.HTTPAdapter.request_url	dt	api/	requests.adapters.HTTPAdapter.request_url	Developer Interface>Lower-Lower-Level Classes>request_url	request,proxies
+2	requests.adapters.HTTPAdapter.send	dt	api/	requests.adapters.HTTPAdapter.send	Developer Interface>Lower-Lower-Level Classes>send	request,stream,timeout,verify,cert,proxies
+2	requests.auth.AuthBase	dt	api/	requests.auth.AuthBase	Developer Interface>Authentication>AuthBase	
+2	requests.auth.HTTPBasicAuth	dt	api/	requests.auth.HTTPBasicAuth	Developer Interface>Authentication>HTTPBasicAuth	username,password
+2	requests.auth.HTTPDigestAuth	dt	api/	requests.auth.HTTPDigestAuth	Developer Interface>Authentication>HTTPDigestAuth	username,password
+2	requests.auth.HTTPProxyAuth	dt	api/	requests.auth.HTTPProxyAuth	Developer Interface>Authentication>HTTPProxyAuth	username,password
+2	requests.codes	dt	api/	requests.codes	Developer Interface>Status Code Lookup>codes	codes.ok,codes.OK,codes.okay,continue,switching_protocols,processing,checkpoint,uri_too_long,request_uri_too_long,ok,okay,all_ok
+2	requests.cookies.CookieConflictError	dt	api/	requests.cookies.CookieConflictError	Developer Interface>Cookies>CookieConflictError	
+2	requests.cookies.CookieConflictError.add_note	dt	api/	requests.cookies.CookieConflictError.add_note	Developer Interface>Cookies>add_note	
+2	requests.cookies.CookieConflictError.with_traceback	dt	api/	requests.cookies.CookieConflictError.with_traceback	Developer Interface>Cookies>with_traceback	
+2	requests.cookies.RequestsCookieJar	dt	api/	requests.cookies.RequestsCookieJar	Developer Interface>Cookies>RequestsCookieJar	policy
+2	requests.cookies.RequestsCookieJar.add_cookie_header	dt	api/	requests.cookies.RequestsCookieJar.add_cookie_header	Developer Interface>Cookies>add_cookie_header	request
+2	requests.cookies.RequestsCookieJar.clear	dt	api/	requests.cookies.RequestsCookieJar.clear	Developer Interface>Cookies>clear	domain,path,name
+2	requests.cookies.RequestsCookieJar.clear_expired_cookies	dt	api/	requests.cookies.RequestsCookieJar.clear_expired_cookies	Developer Interface>Cookies>clear_expired_cookies	
+2	requests.cookies.RequestsCookieJar.clear_session_cookies	dt	api/	requests.cookies.RequestsCookieJar.clear_session_cookies	Developer Interface>Cookies>clear_session_cookies	
+2	requests.cookies.RequestsCookieJar.copy	dt	api/	requests.cookies.RequestsCookieJar.copy	Developer Interface>Cookies>copy	
+2	requests.cookies.RequestsCookieJar.extract_cookies	dt	api/	requests.cookies.RequestsCookieJar.extract_cookies	Developer Interface>Cookies>extract_cookies	response,request
+2	requests.cookies.RequestsCookieJar.get	dt	api/	requests.cookies.RequestsCookieJar.get	Developer Interface>Cookies>get	name,default,domain,path
+2	requests.cookies.RequestsCookieJar.get_dict	dt	api/	requests.cookies.RequestsCookieJar.get_dict	Developer Interface>Cookies>get_dict	domain,path
+2	requests.cookies.RequestsCookieJar.get_policy	dt	api/	requests.cookies.RequestsCookieJar.get_policy	Developer Interface>Cookies>get_policy	
+2	requests.cookies.RequestsCookieJar.items	dt	api/	requests.cookies.RequestsCookieJar.items	Developer Interface>Cookies>items	
+2	requests.cookies.RequestsCookieJar.iteritems	dt	api/	requests.cookies.RequestsCookieJar.iteritems	Developer Interface>Cookies>iteritems	
+2	requests.cookies.RequestsCookieJar.iterkeys	dt	api/	requests.cookies.RequestsCookieJar.iterkeys	Developer Interface>Cookies>iterkeys	
+2	requests.cookies.RequestsCookieJar.itervalues	dt	api/	requests.cookies.RequestsCookieJar.itervalues	Developer Interface>Cookies>itervalues	
+2	requests.cookies.RequestsCookieJar.keys	dt	api/	requests.cookies.RequestsCookieJar.keys	Developer Interface>Cookies>keys	
+2	requests.cookies.RequestsCookieJar.list_domains	dt	api/	requests.cookies.RequestsCookieJar.list_domains	Developer Interface>Cookies>list_domains	
+2	requests.cookies.RequestsCookieJar.list_paths	dt	api/	requests.cookies.RequestsCookieJar.list_paths	Developer Interface>Cookies>list_paths	
+2	requests.cookies.RequestsCookieJar.make_cookies	dt	api/	requests.cookies.RequestsCookieJar.make_cookies	Developer Interface>Cookies>make_cookies	response,request
+2	requests.cookies.RequestsCookieJar.multiple_domains	dt	api/	requests.cookies.RequestsCookieJar.multiple_domains	Developer Interface>Cookies>multiple_domains	
+2	requests.cookies.RequestsCookieJar.pop	dt	api/	requests.cookies.RequestsCookieJar.pop	Developer Interface>Cookies>pop	k
+2	requests.cookies.RequestsCookieJar.popitem	dt	api/	requests.cookies.RequestsCookieJar.popitem	Developer Interface>Cookies>popitem	
+2	requests.cookies.RequestsCookieJar.set	dt	api/	requests.cookies.RequestsCookieJar.set	Developer Interface>Cookies>set	name,value,kwargs
+2	requests.cookies.RequestsCookieJar.set_cookie	dt	api/	requests.cookies.RequestsCookieJar.set_cookie	Developer Interface>Cookies>set_cookie	cookie,args,kwargs
+2	requests.cookies.RequestsCookieJar.set_cookie_if_ok	dt	api/	requests.cookies.RequestsCookieJar.set_cookie_if_ok	Developer Interface>Cookies>set_cookie_if_ok	cookie,request
+2	requests.cookies.RequestsCookieJar.setdefault	dt	api/	requests.cookies.RequestsCookieJar.setdefault	Developer Interface>Cookies>setdefault	k
+2	requests.cookies.RequestsCookieJar.update	dt	api/	requests.cookies.RequestsCookieJar.update	Developer Interface>Cookies>update	other
+2	requests.cookies.RequestsCookieJar.values	dt	api/	requests.cookies.RequestsCookieJar.values	Developer Interface>Cookies>values	
+2	requests.cookies.cookiejar_from_dict	dt	api/	requests.cookies.cookiejar_from_dict	Developer Interface>Cookies>cookiejar_from_dict	cookie_dict,cookiejar,overwrite
+2	requests.delete	dt	api/	requests.delete	Developer Interface>Main Interface>delete	url,kwargs
+2	requests.get	dt	api/	requests.get	Developer Interface>Main Interface>get	url,params,kwargs
+2	requests.head	dt	api/	requests.head	Developer Interface>Main Interface>head	url,kwargs
+2	requests.patch	dt	api/	requests.patch	Developer Interface>Main Interface>patch	url,data,kwargs
+2	requests.post	dt	api/	requests.post	Developer Interface>Main Interface>post	url,data,json,kwargs
+2	requests.put	dt	api/	requests.put	Developer Interface>Main Interface>put	url,data,kwargs
+2	requests.request	dt	api/	requests.request	Developer Interface>Main Interface>request	method,url,kwargs
+2	requests.utils.add_dict_to_cookiejar	dt	api/	requests.utils.add_dict_to_cookiejar	Developer Interface>Cookies>add_dict_to_cookiejar	cj,cookie_dict
+2	requests.utils.dict_from_cookiejar	dt	api/	requests.utils.dict_from_cookiejar	Developer Interface>Cookies>dict_from_cookiejar	cj
+2	requests.utils.get_encoding_from_headers	dt	api/	requests.utils.get_encoding_from_headers	Developer Interface>Encodings>get_encoding_from_headers	headers
+2	requests.utils.get_encodings_from_content	dt	api/	requests.utils.get_encodings_from_content	Developer Interface>Encodings>get_encodings_from_content	content
+2	requests.utils.get_unicode_from_response	dt	api/	requests.utils.get_unicode_from_response	Developer Interface>Encodings>get_unicode_from_response	r

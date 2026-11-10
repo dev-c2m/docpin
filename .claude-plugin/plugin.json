@@ -1,0 +1,14 @@
+{
+  "name": "docpin",
+  "version": "0.1.0",
+  "description": "Version-pinned library docs lookup: jump straight to the right section of the docs for the version your lockfile uses, instead of searching and crawling.",
+  "license": "Apache-2.0",
+  "userConfig": {
+    "index_path": {
+      "type": "string",
+      "title": "Private index folder",
+      "description": "Optional folder with private doc indexes (takes precedence over bundled ones).",
+      "required": false
+    }
+  }
+}

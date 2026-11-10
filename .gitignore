@@ -1,0 +1,23 @@
+# Published: only what is needed to use the plugin
+#   .claude-plugin/ agents/ skills/ scripts/ indexes/ README.md README.ko.md LICENSE
+
+# development notes and drafts
+DESIGN.md
+DESIGN-draft.md
+
+# docs merged into the README
+docs/
+SECURITY.md
+
+# benchmark tooling and run records (records contain local paths)
+evals/
+
+# development tests
+tests/
+
+# generated, not used by the plugin
+REGISTRY.tsv
+
+# python
+__pycache__/
+*.pyc
