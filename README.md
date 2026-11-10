@@ -72,10 +72,26 @@ question ─▶ Claude ─▶ doc-lookup agent (small model, Bash + WebFetch onl
 Requires Python 3.11+ on `PATH` (`python`; on Windows `py -3` also works).
 The scripts use the standard library only.
 
-```bash
-git clone https://github.com/dev-c2m/docpin.git
-claude --plugin-dir ./docpin
+In Claude Code (2.1.275 or later):
+
 ```
+/plugin install docpin --marketplace dev-c2m/docpin
+```
+
+Or in two steps, on any version:
+
+```
+/plugin marketplace add dev-c2m/docpin
+/plugin install docpin@docpin
+```
+
+From a shell (2.1.292 or later): `claude plugin install docpin --marketplace dev-c2m/docpin`.
+
+Updates: auto-update is off by default for third-party marketplaces. Turn it on in
+`/plugin` › Marketplaces › docpin, or update by hand with `/plugin marketplace update docpin`.
+
+To try a local checkout instead: `git clone https://github.com/dev-c2m/docpin.git`
+and start Claude Code with `claude --plugin-dir ./docpin`.
 
 Then just ask, in any language: "How does explode() treat empty lists in Polars 2?
 Check the official docs."
@@ -83,7 +99,8 @@ Check the official docs."
 ### Permissions
 
 Each lookup is a Bash command. To avoid a prompt every time, allow exactly these
-two scripts in your Claude Code settings, with the path of your checkout:
+two scripts in your Claude Code settings. Use the plugin's install path, which
+the first permission prompt shows in the command:
 
 ```json
 {

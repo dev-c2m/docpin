@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "Version-pinned library docs lookup: jump straight to the right section of the docs for the version your lockfile uses, instead of searching and crawling.",
   "license": "Apache-2.0",
+  "author": {
+    "name": "dev-c2m",
+    "url": "https://github.com/dev-c2m"
+  },
+  "repository": "https://github.com/dev-c2m/docpin",
   "userConfig": {
     "index_path": {
       "type": "string",

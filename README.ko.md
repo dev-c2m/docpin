@@ -72,17 +72,34 @@ SQLAlchemy 2.1, Flet 1.0/1.1입니다. 문항은 튜닝이 끝난 뒤, 코드를
 Python 3.11 이상이 `PATH`에 있어야 합니다(`python`, Windows에서는 `py -3`도 됩니다).
 스크립트는 표준 라이브러리만 사용합니다.
 
-```bash
-git clone https://github.com/dev-c2m/docpin.git
-claude --plugin-dir ./docpin
+Claude Code 안에서(2.1.275 이상):
+
 ```
+/plugin install docpin --marketplace dev-c2m/docpin
+```
+
+또는 버전과 상관없이 두 단계로:
+
+```
+/plugin marketplace add dev-c2m/docpin
+/plugin install docpin@docpin
+```
+
+셸에서(2.1.292 이상): `claude plugin install docpin --marketplace dev-c2m/docpin`
+
+업데이트: 외부 마켓플레이스는 자동 업데이트가 기본으로 꺼져 있습니다. `/plugin` ›
+Marketplaces › docpin에서 켜거나, `/plugin marketplace update docpin`으로 직접 업데이트하세요.
+
+로컬에 받아서 써 보려면: `git clone https://github.com/dev-c2m/docpin.git` 후
+`claude --plugin-dir ./docpin`으로 Claude Code를 실행합니다.
 
 그다음 어떤 언어로든 그냥 물어보면 됩니다: "Polars 2에서 explode()가 빈 리스트를 어떻게 처리해? 공식 문서 기준으로."
 
 ### 권한 설정
 
 조회 한 번이 Bash 명령 하나입니다. 매번 권한 확인을 받지 않으려면 Claude Code
-설정에서 아래 두 스크립트만 정확히 허용하세요(경로는 설치한 위치로 바꿉니다).
+설정에서 아래 두 스크립트만 정확히 허용하세요. 경로는 플러그인이 설치된 위치이고,
+처음 뜨는 권한 확인 창의 명령에 표시됩니다.
 
 ```json
 {
